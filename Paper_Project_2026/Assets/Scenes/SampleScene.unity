@@ -665,11 +665,25 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   <jump>k__BackingField:
     Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    Path: 
+      Data1: -382841198
+      Data2: 1173743153
+      Data3: -767969122
+      Data4: -1266412880
+    Path: event:/Jump
+  <jumpLanding>k__BackingField:
+    Guid:
+      Data1: -572456686
+      Data2: 1193041220
+      Data3: -827924335
+      Data4: 1893750154
+    Path: event:/JumpLanding
+  <playerFootsteps>k__BackingField:
+    Guid:
+      Data1: 937645383
+      Data2: 1147206466
+      Data3: 173239211
+      Data4: 1841935057
+    Path: event:/PlayerFootsteps
 --- !u!1 &1602565859
 GameObject:
   m_ObjectHideFlags: 0

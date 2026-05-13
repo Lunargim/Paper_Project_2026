@@ -27,6 +27,33 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-2154276153634679746
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/PlayerFootsteps
+  m_EditorClassIdentifier: 
+  Path: event:/PlayerFootsteps
+  Guid:
+    Data1: 937645383
+    Data2: 1147206466
+    Data3: 173239211
+    Data4: 1841935057
+  Banks:
+  - {fileID: -930582036267260198}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 345
 --- !u!114 &-930582036267260198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +69,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 639142797809308254
+  lastModified: 639142835206926142
   FileSizes:
   - Name: Desktop
-    Value: 10464
+    Value: 21216
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -66,18 +93,21 @@ MonoBehaviour:
   EditorEvents:
   - {fileID: -6881363525788394050}
   - {fileID: 4208695578993915879}
+  - {fileID: -2154276153634679746}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3877386852350748615}
   StringsBanks:
   - {fileID: 682088519476137282}
   cacheVersion: 131859
-  cacheTime: 639142797809308254
+  cacheTime: 639142835206926142
   SerializableEventsDict:
   - key: event:/JumpLanding
     index: 0
   - key: event:/Jump
     index: 1
+  - key: event:/PlayerFootsteps
+    index: 2
 --- !u!114 &682088519476137282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -93,10 +123,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639142797808579537
+  lastModified: 639142835206590869
   FileSizes:
   - Name: Desktop
-    Value: 864
+    Value: 922
   Exists: 1
 --- !u!114 &3877386852350748615
 MonoBehaviour:
@@ -113,7 +143,7 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639142797808564510
+  lastModified: 639142835206580845
   FileSizes:
   - Name: Desktop
     Value: 1074

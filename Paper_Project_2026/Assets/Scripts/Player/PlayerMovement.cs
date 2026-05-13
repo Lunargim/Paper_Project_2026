@@ -1,5 +1,10 @@
+using System;
+using FMOD.Studio;
+using FMODUnity;
+using Mono.Cecil;
 using UnityEngine;
 using UnityEngine.InputSystem;
+using STOP_MODE = FMOD.Studio.STOP_MODE;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -19,6 +24,9 @@ public class PlayerMovement : MonoBehaviour
     private Vector3 velocity;
     private float xRotation = 0f;
     private bool jumpPressed;
+    private bool wasGrounded;
+    
+    private EventInstance playerFootsteps;
 
     private void Awake()
     {
@@ -27,6 +35,20 @@ public class PlayerMovement : MonoBehaviour
         
         Cursor.lockState = CursorLockMode.Locked;
         Cursor.visible = false;
+    }
+    
+    private void Start()
+    {
+        playerFootsteps = AudioManager.instance.CreateEventInstance(FMODEvents.instance.playerFootsteps);
+        RuntimeManager.AttachInstanceToGameObject(playerFootsteps, this.transform);
+    
+        playerFootsteps.getDescription(out var description);
+        description.getPath(out var path);
+        Debug.Log("Path effettivo: " + path);
+    
+        FMOD.RESULT result = playerFootsteps.start();
+        Debug.Log("Test start diretto: " + result);
+        playerFootsteps.stop(STOP_MODE.IMMEDIATE);   
     }
 
     private void OnEnable()
@@ -61,21 +83,31 @@ public class PlayerMovement : MonoBehaviour
     {
         HandleMovement();
         HandleLook();
+        CheckLanding();
+        UpdateSound();
+    }
+
+    private void FixedUpdate()
+    {
+        UpdateSound();
     }
 
     private void HandleMovement()
     {
+        
         Vector3 move = transform.right * moveInput.x + transform.forward * moveInput.y;
         controller.Move(move * speed * Time.deltaTime);
 
         if (controller.isGrounded && velocity.y < 0)
+        {
             velocity.y = -2f;
+        }
 
         if (jumpPressed)
         {
             velocity.y = jumpForce;
             jumpPressed = false;
-            //AudioManager.instance.PlayOneShot(jump);
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.jump, this.transform.position);
         }
 
         velocity.y += gravity * Time.deltaTime;
@@ -94,5 +126,36 @@ public class PlayerMovement : MonoBehaviour
         cameraTransform.localRotation = Quaternion.Euler(xRotation, 0f, 0f);
 
         transform.Rotate(Vector3.up * mouseX);
+    }
+    
+    private void CheckLanding()
+    {
+        bool isGrounded = controller.isGrounded;
+
+        if (!wasGrounded && isGrounded)
+        {
+            AudioManager.instance.PlayOneShot(FMODEvents.instance.jumpLanding, this.transform.position);
+        }
+
+        wasGrounded = isGrounded;
+    }
+
+    private void UpdateSound()
+    {
+        // start footsteps event if the player has an x velocity and is on the ground
+        if ((moveInput.x != 0 || moveInput.y != 0) && controller.isGrounded)
+        {
+            // get the playback state
+            playerFootsteps.getPlaybackState(out var playbackState);
+            if (playbackState.Equals(PLAYBACK_STATE.STOPPED))
+            {
+                playerFootsteps.start();
+            }
+        }
+        // otherwise, stop the footsteps event
+        else 
+        {
+            playerFootsteps.stop(STOP_MODE.ALLOWFADEOUT);
+        }
     }
 }
