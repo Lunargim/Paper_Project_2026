@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="AudioFile" id="{86287c69-0bea-4552-b6ef-06eff984a72e}">
+		<property name="assetPath">
+			<value>Character/Footsteps/OnRock/620346__marb7e__footsteps_stiletto_stone_walk04.wav</value>
+		</property>
+		<property name="frequencyInKHz">
+			<value>48</value>
+		</property>
+		<property name="channelCount">
+			<value>1</value>
+		</property>
+		<property name="length">
+			<value>1.1248958333333334</value>
+		</property>
+		<relationship name="masterAssetFolder">
+			<destination>{c336cce7-112a-49f5-9ba1-2b99c2527f76}</destination>
+		</relationship>
+	</object>
+</objects>
