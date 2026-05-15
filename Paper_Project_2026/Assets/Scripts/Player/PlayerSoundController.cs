@@ -117,16 +117,27 @@ public class PlayerSoundController : MonoBehaviour
 
     public SurfaceType GetSurfaceType()
     {
+       
+        var colliders = Physics.OverlapSphere(transform.position, _groundCheckRadius, 
+            Physics.DefaultRaycastLayers, QueryTriggerInteraction.Collide);
+    
+        foreach (var col in colliders)
+        {
+            var surface = col.GetComponentInParent<Surface>();
+            if (surface != null)
+                return surface.type;
+        }
+
         var ray = new Ray(transform.position, Vector3.down);
-        if (Physics.SphereCast(ray, _groundCheckRadius, out RaycastHit info, _groundCheckHeight))
+        if (Physics.SphereCast(ray, _groundCheckRadius, out RaycastHit info, _groundCheckHeight,
+                Physics.DefaultRaycastLayers, QueryTriggerInteraction.Ignore))
         {
             var surface = info.transform.GetComponentInParent<Surface>();
             if (surface != null)
-            {
                 return surface.type;
-            }
-        } 
-        return SurfaceType.Dirt;
+        }
+
+        return SurfaceType.Wood;
     }
     
     private void OnDrawGizmos()
