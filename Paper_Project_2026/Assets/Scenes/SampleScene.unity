@@ -119,6 +119,37 @@ NavMeshSettings:
     debug:
       m_Flags: 0
   m_NavMeshData: {fileID: 0}
+--- !u!1 &197992271
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 197992272}
+  m_Layer: 0
+  m_Name: GroundChecker
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &197992272
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 197992271}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: -1.002, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1870989477}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &330585543
 GameObject:
   m_ObjectHideFlags: 0
@@ -509,6 +540,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 582216d4b06c18d48af210d845faf81c, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  masterVolume: 1
+  musicVolume: 1
+  ambienceVolume: 1
+  SFXVolume: 1
 --- !u!1 &1286500539
 GameObject:
   m_ObjectHideFlags: 0
@@ -663,6 +698,20 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7c57fa1d74cfc4e8c168f482354410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  <ambience>k__BackingField:
+    Guid:
+      Data1: 937645383
+      Data2: 1147206466
+      Data3: 173239211
+      Data4: 1841935057
+    Path: event:/PlayerFootsteps
+  <music>k__BackingField:
+    Guid:
+      Data1: 937645383
+      Data2: 1147206466
+      Data3: 173239211
+      Data4: 1841935057
+    Path: event:/PlayerFootsteps
   <jump>k__BackingField:
     Guid:
       Data1: -382841198
@@ -696,7 +745,7 @@ GameObject:
   - component: {fileID: 1602565863}
   - component: {fileID: 1602565862}
   - component: {fileID: 1602565861}
-  m_Layer: 0
+  m_Layer: 3
   m_Name: Plane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -803,6 +852,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1870989477}
   - component: {fileID: 1870989478}
+  - component: {fileID: 1870989480}
   - component: {fileID: 1870989479}
   m_Layer: 0
   m_Name: Player
@@ -820,12 +870,13 @@ Transform:
   m_GameObject: {fileID: 1870989476}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalPosition: {x: 0, y: 1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
   - {fileID: 1286500540}
   - {fileID: 330585546}
+  - {fileID: 197992272}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &1870989478
@@ -840,12 +891,17 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: e3bbf7b2b6f685d478f5b4ced0ab4ac6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  speed: 5
-  jumpForce: 5
-  gravity: -9.81
-  cameraTransform: {fileID: 330585546}
-  mouseSensitivity: 0.3
-  verticalClamp: 80
+  _speed: 5
+  _jumpForce: 5
+  _gravity: -9.81
+  _cameraTransform: {fileID: 330585546}
+  _mouseSensitivity: 0.3
+  _verticalClamp: 80
+  _groundCheck: {fileID: 197992272}
+  _groundCheckRadius: 0.2
+  _groundLayer:
+    serializedVersion: 2
+    m_Bits: 8
 --- !u!143 &1870989479
 CharacterController:
   m_ObjectHideFlags: 0
@@ -871,6 +927,18 @@ CharacterController:
   m_SkinWidth: 0.08
   m_MinMoveDistance: 0.001
   m_Center: {x: 0, y: 0, z: 0}
+--- !u!114 &1870989480
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1870989476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d68616152078b8746bf61c9a4ae73c12, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2000448350
 GameObject:
   m_ObjectHideFlags: 0
