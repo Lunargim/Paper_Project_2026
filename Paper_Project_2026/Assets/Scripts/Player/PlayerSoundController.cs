@@ -8,6 +8,13 @@ public class PlayerSoundController : MonoBehaviour
     
     private bool _wasWalking = false;
     
+    [Header("Ground Check")]
+    [SerializeField] private Transform _groundCheck;
+    [SerializeField] private float _groundCheckRadius;
+    [SerializeField] private float _groundCheckHeight;
+    
+    private SurfaceType _currentSurfaceType = SurfaceType.Dirt;
+    
     void Awake()
     {
         _player = GetComponent<PlayerMovementController>();
@@ -20,15 +27,10 @@ public class PlayerSoundController : MonoBehaviour
         
     }
     
-    void Start()
-    {
-        _playerFootsteps = AudioManager.instance.CreateEventInstance(FMODEvents.instance.playerFootsteps);
-        FMODUnity.RuntimeManager.AttachInstanceToGameObject(_playerFootsteps, this.gameObject);
-    }
-    
     void Update()
     {
-        _playerFootsteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
+        //_playerFootsteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
+
     }
 
     void OnDestroy()
@@ -44,14 +46,47 @@ public class PlayerSoundController : MonoBehaviour
     
     private void PlayWalkSound(float playerX, float playerY, bool isGrounded)
     {
-        bool condition = (playerX != 0 || playerY != 0) && isGrounded;
+        bool isWalking = (playerX != 0 || playerY != 0) && isGrounded;
         
-        if (condition != _wasWalking)
+        SurfaceType newSurface = isWalking ? GetSurfaceType() : _currentSurfaceType;
+
+        bool surfaceChanged = isWalking && (newSurface != _currentSurfaceType);
+        bool walkStateChanged = isWalking != _wasWalking;
+
+        if (walkStateChanged || surfaceChanged)
         {
-            _wasWalking = condition;
-            PlayingLoopingSounds(_playerFootsteps, condition);   
+            _playerFootsteps.stop(STOP_MODE.IMMEDIATE);
+            _playerFootsteps.release();
+
+            if (isWalking)
+            {
+                _currentSurfaceType = newSurface;
+                switch (GetSurfaceType())
+                {
+                    case SurfaceType.Grass:
+                        _playerFootsteps =
+                            AudioManager.instance.CreateEventInstance(FMODEvents.instance.p_Footsteps_Grass);
+                        break;
+                    case SurfaceType.Rock:
+                        _playerFootsteps =
+                            AudioManager.instance.CreateEventInstance(FMODEvents.instance.p_Footsteps_Rock);
+                        break;
+                    case SurfaceType.Wood:
+                        _playerFootsteps =
+                            AudioManager.instance.CreateEventInstance(FMODEvents.instance.p_Footsteps_Wood);
+                        break;
+                    case SurfaceType.Dirt:
+                        _playerFootsteps =
+                            AudioManager.instance.CreateEventInstance(FMODEvents.instance.p_Footsteps_Dirt);
+                        break;
+                }
+                FMODUnity.RuntimeManager.AttachInstanceToGameObject(_playerFootsteps, this.gameObject);
+            }
+            
+            _wasWalking = isWalking;
+            PlayingLoopingSounds(_playerFootsteps, isWalking);
         }
-        
+
     }
 
     public void PlayJumpSound()
@@ -78,6 +113,30 @@ public class PlayerSoundController : MonoBehaviour
         {
             eventInstance.stop(STOP_MODE.ALLOWFADEOUT);
         }
+    }
+
+    public SurfaceType GetSurfaceType()
+    {
+        var ray = new Ray(transform.position, Vector3.down);
+        if (Physics.SphereCast(ray, _groundCheckRadius, out RaycastHit info, _groundCheckHeight))
+        {
+            var surface = info.transform.GetComponentInParent<Surface>();
+            if (surface != null)
+            {
+                return surface.type;
+            }
+        } 
+        return SurfaceType.Wood;
+    }
+    
+    private void OnDrawGizmos()
+    {
+        var ray = new Ray(transform.position, Vector3.down);
+        bool hit = Physics.SphereCast(ray, _groundCheckRadius, out RaycastHit info, _groundCheckHeight);
+    
+        Gizmos.color = hit ? Color.green : Color.red;
+        Gizmos.DrawLine(transform.position, transform.position + Vector3.down * _groundCheckHeight);
+        Gizmos.DrawWireSphere(transform.position + Vector3.down * _groundCheckHeight, _groundCheckRadius);
     }
     
 }
