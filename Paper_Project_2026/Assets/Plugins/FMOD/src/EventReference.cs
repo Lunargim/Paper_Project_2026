@@ -7,12 +7,14 @@ namespace FMODUnity
     public struct EventReference
     {
         public FMOD.GUID Guid;
+        public EventReferenceType type;
 
 #if UNITY_EDITOR
 #if FMOD_SERIALIZE_GUID_ONLY
         [NonSerialized]
 #endif
         public string Path;
+        
 
         public static Func<string, FMOD.GUID> GuidLookupDelegate;
 
@@ -53,4 +55,14 @@ namespace FMODUnity
         }
 #endif
     }
+    
+    public enum EventReferenceType
+    {
+        Footsteps,
+        Jump,
+        Ambient,
+        Music,
+    }
 }
+
+
