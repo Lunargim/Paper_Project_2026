@@ -39,15 +39,16 @@ public class AudioManager : MonoBehaviour
 
         eventInstances = new List<EventInstance>();
         eventEmitters = new List<StudioEventEmitter>();
-
-        masterBus = RuntimeManager.GetBus("bus:/");
-        musicBus = RuntimeManager.GetBus("bus:/Music");
-        ambienceBus = RuntimeManager.GetBus("bus:/Ambience");
-        sfxBus = RuntimeManager.GetBus("bus:/SFX");
+        
     }
 
     private void Start()
     {
+        /*masterBus = RuntimeManager.GetBus("bus:/");
+        musicBus = RuntimeManager.GetBus("bus:/Music");
+        ambienceBus = RuntimeManager.GetBus("bus:/Ambience");
+        sfxBus = RuntimeManager.GetBus("bus:/SFX");*/
+        
         InitializeAmbience(FMODEvents.instance.ambience);
         InitializeMusic(FMODEvents.instance.music);
     }
@@ -104,13 +105,11 @@ public class AudioManager : MonoBehaviour
 
     private void CleanUp()
     {
-        // stop and release any created instances
         foreach (EventInstance eventInstance in eventInstances)
         {
             eventInstance.stop(FMOD.Studio.STOP_MODE.IMMEDIATE);
             eventInstance.release();
         }
-        // stop all of the event emitters, because if we don't they may hang around in other scenes
         foreach (StudioEventEmitter emitter in eventEmitters)
         {
             emitter.Stop();
