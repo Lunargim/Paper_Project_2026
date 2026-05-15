@@ -126,7 +126,7 @@ public class PlayerSoundController : MonoBehaviour
                 return surface.type;
             }
         } 
-        return SurfaceType.Wood;
+        return SurfaceType.Dirt;
     }
     
     private void OnDrawGizmos()
