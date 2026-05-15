@@ -1,6 +1,6 @@
 %YAML 1.1
 %TAG !u! tag:unity3d.com,2011:
---- !u!114 &-6881363525788394050
+--- !u!114 &-7755449224548780024
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/JumpLanding
+  m_Name: event:/Player/Jump/JumpLanding
   m_EditorClassIdentifier: 
-  Path: event:/JumpLanding
+  Path: event:/Player/Jump/JumpLanding
   Guid:
     Data1: -572456686
     Data2: 1193041220
@@ -27,7 +27,7 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
---- !u!114 &-2154276153634679746
+--- !u!114 &-6036268916899577841
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -37,14 +37,14 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/PlayerFootsteps
+  m_Name: event:/Player/Footspeps/P_Footspets_Grass
   m_EditorClassIdentifier: 
-  Path: event:/PlayerFootsteps
+  Path: event:/Player/Footspeps/P_Footspets_Grass
   Guid:
-    Data1: 937645383
-    Data2: 1147206466
-    Data3: 173239211
-    Data4: 1841935057
+    Data1: -1183246775
+    Data2: 1082730059
+    Data3: 431011499
+    Data4: -70166912
   Banks:
   - {fileID: -930582036267260198}
   IsStream: 0
@@ -53,7 +53,61 @@ MonoBehaviour:
   Parameters: []
   MinDistance: 1
   MaxDistance: 20
-  Length: 345
+  Length: 580
+--- !u!114 &-3625773886070490407
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footspeps/P_Footspets_Wood
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footspeps/P_Footspets_Wood
+  Guid:
+    Data1: -1068930702
+    Data2: 1113755684
+    Data3: -972483656
+    Data4: 1154047526
+  Banks:
+  - {fileID: -930582036267260198}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 850
+--- !u!114 &-3553193744069389942
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footspeps/P_Footspets_Rock
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footspeps/P_Footspets_Rock
+  Guid:
+    Data1: -1731162999
+    Data2: 1254315769
+    Data3: -1823268972
+    Data4: -1226466303
+  Banks:
+  - {fileID: -930582036267260198}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1138
 --- !u!114 &-930582036267260198
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -69,10 +123,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 639142835206926142
+  lastModified: 639144613405727882
   FileSizes:
   - Name: Desktop
-    Value: 21216
+    Value: 75520
   Exists: 1
 --- !u!114 &11400000
 MonoBehaviour:
@@ -91,23 +145,32 @@ MonoBehaviour:
   - {fileID: 3877386852350748615}
   - {fileID: -930582036267260198}
   EditorEvents:
-  - {fileID: -6881363525788394050}
-  - {fileID: 4208695578993915879}
-  - {fileID: -2154276153634679746}
+  - {fileID: -7755449224548780024}
+  - {fileID: -6036268916899577841}
+  - {fileID: -3625773886070490407}
+  - {fileID: -3553193744069389942}
+  - {fileID: 6998386885867586359}
+  - {fileID: 7677995368034392557}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3877386852350748615}
   StringsBanks:
   - {fileID: 682088519476137282}
   cacheVersion: 131859
-  cacheTime: 639142835206926142
+  cacheTime: 639144613405727882
   SerializableEventsDict:
-  - key: event:/JumpLanding
+  - key: event:/Player/Jump/JumpLanding
     index: 0
-  - key: event:/Jump
+  - key: event:/Player/Footspeps/P_Footspets_Grass
     index: 1
-  - key: event:/PlayerFootsteps
+  - key: event:/Player/Footspeps/P_Footspets_Wood
     index: 2
+  - key: event:/Player/Footspeps/P_Footspets_Rock
+    index: 3
+  - key: event:/Player/Jump/Jump
+    index: 4
+  - key: event:/Player/Footspeps/P_Footspets_Dirt
+    index: 5
 --- !u!114 &682088519476137282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -123,10 +186,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639142835206590869
+  lastModified: 639144613404763528
   FileSizes:
   - Name: Desktop
-    Value: 922
+    Value: 1062
   Exists: 1
 --- !u!114 &3877386852350748615
 MonoBehaviour:
@@ -143,12 +206,12 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639142835206580845
+  lastModified: 639144613404763528
   FileSizes:
   - Name: Desktop
     Value: 1074
   Exists: 1
---- !u!114 &4208695578993915879
+--- !u!114 &6998386885867586359
 MonoBehaviour:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
@@ -158,9 +221,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Jump
+  m_Name: event:/Player/Jump/Jump
   m_EditorClassIdentifier: 
-  Path: event:/Jump
+  Path: event:/Player/Jump/Jump
   Guid:
     Data1: -382841198
     Data2: 1173743153
@@ -175,3 +238,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &7677995368034392557
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Player/Footspeps/P_Footspets_Dirt
+  m_EditorClassIdentifier: 
+  Path: event:/Player/Footspeps/P_Footspets_Dirt
+  Guid:
+    Data1: -292686945
+    Data2: 1277583072
+    Data3: -874185579
+    Data4: 1483266877
+  Banks:
+  - {fileID: -930582036267260198}
+  IsStream: 0
+  Is3D: 1
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 1300
