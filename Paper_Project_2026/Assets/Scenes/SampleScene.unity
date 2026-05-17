@@ -32672,7 +32672,7 @@ ParticleSystemRenderer:
   m_MaxParticleSize: 0.5
   m_CameraVelocityScale: 0
   m_VelocityScale: 0
-  m_LengthScale: 2
+  m_LengthScale: -2
   m_SortingFudge: 0
   m_NormalDirection: 1
   m_ShadowBias: 0
@@ -32780,7 +32780,7 @@ ParticleSystem:
     startLifetime:
       serializedVersion: 2
       minMaxState: 0
-      scalar: 1
+      scalar: 0.5
       minScalar: 5
       maxCurve:
         serializedVersion: 2
@@ -55451,6 +55451,7 @@ Transform:
   m_Children:
   - {fileID: 1267268393}
   - {fileID: 415548296}
+  - {fileID: 1422029945}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1048303622 stripped
@@ -67936,7 +67937,7 @@ MonoBehaviour:
       Data2: 1193041220
       Data3: -827924335
       Data4: 1893750154
-    type: 0
+    type: 2
     Path: event:/Player/Jump/JumpLanding
   <music>k__BackingField:
     Guid:
@@ -67944,7 +67945,7 @@ MonoBehaviour:
       Data2: 1173743153
       Data3: -767969122
       Data4: -1266412880
-    type: 0
+    type: 3
     Path: event:/Player/Jump/Jump
   <p_Footsteps_Wood>k__BackingField:
     Guid:
@@ -67984,7 +67985,7 @@ MonoBehaviour:
       Data2: 1173743153
       Data3: -767969122
       Data4: -1266412880
-    type: 0
+    type: 1
     Path: event:/Player/Jump/Jump
   <jumpLanding>k__BackingField:
     Guid:
@@ -67992,7 +67993,7 @@ MonoBehaviour:
       Data2: 1193041220
       Data3: -827924335
       Data4: 1893750154
-    type: 0
+    type: 1
     Path: event:/Player/Jump/JumpLanding
 --- !u!1 &1301329017 stripped
 GameObject:
@@ -72941,6 +72942,50 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300010, guid: adda25f0fcd79eb4581aecbe210dea31, type: 3}
+--- !u!1 &1422029944
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1422029945}
+  - component: {fileID: 1422029946}
+  m_Layer: 0
+  m_Name: PhaseManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1422029945
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422029944}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1048244548}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1422029946
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1422029944}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 327d91cc513aa144bbef1e7b30bcf5ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1422079969
 PrefabInstance:
   m_ObjectHideFlags: 0

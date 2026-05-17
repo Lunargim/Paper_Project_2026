@@ -26,12 +26,6 @@ public class PlayerSoundController : MonoBehaviour
         _player.OnStartFalling += StopFootstep;*/
         
     }
-    
-    void Update()
-    {
-        //_playerFootsteps.set3DAttributes(FMODUnity.RuntimeUtils.To3DAttributes(this.gameObject));
-
-    }
 
     void OnDestroy()
     {
