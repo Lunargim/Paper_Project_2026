@@ -269,6 +269,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 02636eff5c81de04694b5fdc5f7f65ab, type: 3}
+--- !u!1 &7707675 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+  m_PrefabInstance: {fileID: 1259170618}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &8054362 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 4b4cdb55dada4b84290580ec632b39b0, type: 3}
@@ -354,6 +359,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: f8c4dfd0234dcd1479f34df46631187e, type: 3}
   m_PrefabInstance: {fileID: 8088151}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &9001161 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+  m_PrefabInstance: {fileID: 117770695}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &11090278 stripped
 GameObject:
@@ -3406,6 +3416,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100000, guid: ce36f87d0964b71438a24600649180ba, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1845449477}
     - targetCorrespondingSourceObject: {fileID: 100046, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       insertIndex: -1
       addedObject: {fileID: 64011559}
@@ -4721,6 +4734,11 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
   m_PrefabInstance: {fileID: 725402406}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &96937540 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
+  m_PrefabInstance: {fileID: 146871026}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &97165545
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -4986,6 +5004,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 4573599907495638, guid: 235c91829ddd0614f9bf8dff8e983851, type: 3}
   m_PrefabInstance: {fileID: 105422416}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &106036525 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+  m_PrefabInstance: {fileID: 801946754}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &107636321 stripped
 GameObject:
@@ -5358,13 +5381,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 117770697}
   m_SourcePrefab: {fileID: 100100000, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
 --- !u!4 &117770696 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
   m_PrefabInstance: {fileID: 117770695}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &117770697
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 9001161}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 6
+  OverrideMaxDistance: 15
+  _sound:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
 --- !u!1001 &120078581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -6429,6 +6495,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 146871034}
     - targetCorrespondingSourceObject: {fileID: 155528, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 146871029}
@@ -6466,6 +6535,46 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!114 &146871034
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 96937540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &148268021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7478,7 +7587,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 239268646}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &169921981 stripped
 Transform:
@@ -9903,6 +10015,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 711ab6f8d7771154f9b776bdec2a8c5f, type: 3}
   m_PrefabInstance: {fileID: 209618123}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &213154019 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 762838979}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &213458855
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -11420,6 +11537,51 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300004, guid: 02636eff5c81de04694b5fdc5f7f65ab, type: 3}
+--- !u!1 &239268643 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 169921980}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &239268646
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 239268643}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1 &239941608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1154681350894348, guid: 3307d021f8c7f6d41bd96741ce7ac05e, type: 3}
@@ -13992,7 +14154,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2136383994}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &297545990 stripped
 Transform:
@@ -17008,6 +17173,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 04e0ab4312f682f439b88c86a65672e0, type: 3}
   m_PrefabInstance: {fileID: 371357891}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &371547192 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 474177104}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &371776890
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18776,7 +18946,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1237019444}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &406565597 stripped
 Transform:
@@ -22453,7 +22626,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100010, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 853557551}
   m_SourcePrefab: {fileID: 100100000, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
 --- !u!4 &467068782 stripped
 Transform:
@@ -22698,13 +22874,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 474177108}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &474177105 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 474177104}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &474177108
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 371547192}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &475274264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -27359,6 +27578,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4209614434616532, guid: d3c9d0f652fa2454eb70f623ca29ddc4, type: 3}
   m_PrefabInstance: {fileID: 586584056}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &586974487 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 1801518499}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &587554486
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -31641,7 +31865,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 988455589}
   m_SourcePrefab: {fileID: 100100000, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
 --- !u!4 &667885560 stripped
 Transform:
@@ -32356,6 +32583,11 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.7234417
   m_Center: {x: -0.01839334, y: -0.0048927073, z: 0.0004043598}
+--- !u!1 &674359340 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 1423229969}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &675002440
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -39956,6 +40188,11 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.7234416
   m_Center: {x: -0.018395247, y: -0.004900336, z: 0.00039672898}
+--- !u!1 &718247045 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
+  m_PrefabInstance: {fileID: 969410596}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &719302326 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1698221019293936, guid: d3c9d0f652fa2454eb70f623ca29ddc4, type: 3}
@@ -41888,13 +42125,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 762838983}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &762838980 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 762838979}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &762838983
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 213154019}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1 &767525577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
@@ -41970,6 +42250,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300020, guid: adda25f0fcd79eb4581aecbe210dea31, type: 3}
+--- !u!1 &770266796 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 1477820290}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &771545887
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43578,13 +43863,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 801946756}
   m_SourcePrefab: {fileID: 100100000, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
 --- !u!4 &801946755 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
   m_PrefabInstance: {fileID: 801946754}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &801946756
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 106036525}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 6
+  OverrideMaxDistance: 15
+  _sound:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
 --- !u!1001 &801980360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -46388,6 +46716,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 3ccf2bc3f937d3649a1d2b0aeb03ba51, type: 3}
   m_PrefabInstance: {fileID: 852046983}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &853557546 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100010, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
+  m_PrefabInstance: {fileID: 467068781}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &853557551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 853557546}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 6
+  OverrideMaxDistance: 15
+  _sound:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
 --- !u!1 &854341943 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1629127632186364, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
@@ -46448,6 +46821,11 @@ Transform:
   - {fileID: 405662052}
   m_Father: {fileID: 706362192}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &856554728 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100002, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
+  m_PrefabInstance: {fileID: 2059910071}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &856896068
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -49937,7 +50315,10 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1906630017}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &923304989 stripped
 Transform:
@@ -51682,13 +52063,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 969410601}
   m_SourcePrefab: {fileID: 100100000, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
 --- !u!4 &969410597 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
   m_PrefabInstance: {fileID: 969410596}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &969410601
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 718247045}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 6
+  OverrideMaxDistance: 15
+  _sound:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
 --- !u!1 &970211210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1474110974607802, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
@@ -52535,6 +52959,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 0d998acdcb880824e92697c2f3ee2147, type: 3}
   m_PrefabInstance: {fileID: 985741608}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &988455588 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+  m_PrefabInstance: {fileID: 667885559}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &988455589
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 988455588}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 6
+  OverrideMaxDistance: 15
+  _sound:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
 --- !u!1 &990261982 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1195779352965306, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
@@ -54781,6 +55250,40 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 02636eff5c81de04694b5fdc5f7f65ab, type: 3}
+--- !u!1 &1034959885
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1034959886}
+  m_Layer: 0
+  m_Name: EnvironmentSound
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1034959886
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1034959885}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1203882694}
+  - {fileID: 1508752784}
+  - {fileID: 1916052725}
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1035175468 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1026561178429062, guid: 3307d021f8c7f6d41bd96741ce7ac05e, type: 3}
@@ -55366,6 +55869,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 4fc13c77ac16e204d961d1f47541e29c, type: 3}
   m_PrefabInstance: {fileID: 1043755782}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1044954108 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 1988667844}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1047759284 stripped
 GameObject:
@@ -61032,6 +61540,11 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 02636eff5c81de04694b5fdc5f7f65ab, type: 3}
+--- !u!1 &1164632111 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 1482987015}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1164738267 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
@@ -63099,6 +63612,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 74843168197e40948b5c8bd9d6b0b70d, type: 3}
   m_PrefabInstance: {fileID: 1203120183}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1203882693
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1203882694}
+  - component: {fileID: 1203882697}
+  - component: {fileID: 1203882696}
+  - component: {fileID: 1203882695}
+  m_Layer: 0
+  m_Name: Sea
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1203882694
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203882693}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.7, y: 0, z: 53}
+  m_LocalScale: {x: 163.73, y: 12.3, z: 51.1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1034959886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1203882695
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203882693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29f788f195f78d4baa787f43732a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientArea:
+    Guid:
+      Data1: -2089680694
+      Data2: 1268161989
+      Data3: 759961484
+      Data4: -670713089
+    type: 0
+    Path: event:/Ambient/Wind
+--- !u!65 &1203882696
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203882693}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1203882697
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203882693}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1208423251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1550670320704150, guid: 0aaaf5da864f53f4186ac02f297713e4, type: 3}
@@ -63523,6 +64119,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: ed41c29ebb074b0419d6ae743544d01e, type: 3}
   m_PrefabInstance: {fileID: 1218538677}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1220502304 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 2103266164}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1220516008
 PrefabInstance:
@@ -64442,6 +65043,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4632754132067490, guid: d64f762022b554040b62239f44929a54, type: 3}
   m_PrefabInstance: {fileID: 1236390289}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1237019441 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 406565596}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1237019444
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1237019441}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1 &1239870857 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 4b4cdb55dada4b84290580ec632b39b0, type: 3}
@@ -65289,13 +65935,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1259170620}
   m_SourcePrefab: {fileID: 100100000, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
 --- !u!4 &1259170619 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
   m_PrefabInstance: {fileID: 1259170618}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1259170620
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 7707675}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 6
+  OverrideMaxDistance: 15
+  _sound:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
 --- !u!1001 &1261664595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -65603,6 +66292,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400004, guid: 6d01ab68395de604e8468dd7162a5db0, type: 3}
   m_PrefabInstance: {fileID: 1271383632}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1271993611 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 1590948435}
   m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1272135874
 PrefabInstance:
@@ -67931,14 +68625,22 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7c57fa1d74cfc4e8c168f482354410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <ambience>k__BackingField:
+  <a_General_Ambient>k__BackingField:
     Guid:
-      Data1: -572456686
-      Data2: 1193041220
-      Data3: -827924335
-      Data4: 1893750154
+      Data1: -382841198
+      Data2: 1173743153
+      Data3: -767969122
+      Data4: -1266412880
+    type: 0
+    Path: event:/SFX/Player/Jump/Jump
+  <a_Sea_Ambient>k__BackingField:
+    Guid:
+      Data1: -2089680694
+      Data2: 1268161989
+      Data3: 759961484
+      Data4: -670713089
     type: 2
-    Path: event:/Player/Jump/JumpLanding
+    Path: event:/Ambient/Wind
   <music>k__BackingField:
     Guid:
       Data1: -382841198
@@ -67946,7 +68648,23 @@ MonoBehaviour:
       Data3: -767969122
       Data4: -1266412880
     type: 3
-    Path: event:/Player/Jump/Jump
+    Path: event:/SFX/Player/Jump/Jump
+  <SFX_People_Talking_Inside>k__BackingField:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
+  <SFX_Torch>k__BackingField:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
   <p_Footsteps_Wood>k__BackingField:
     Guid:
       Data1: -1068930702
@@ -67954,7 +68672,7 @@ MonoBehaviour:
       Data3: -972483656
       Data4: 1154047526
     type: 0
-    Path: event:/Player/Footspeps/P_Footspets_Wood
+    Path: event:/SFX/Player/Footspeps/P_Footspets_Wood
   <p_Footsteps_Rock>k__BackingField:
     Guid:
       Data1: -1731162999
@@ -67962,7 +68680,7 @@ MonoBehaviour:
       Data3: -1823268972
       Data4: -1226466303
     type: 0
-    Path: event:/Player/Footspeps/P_Footspets_Rock
+    Path: event:/SFX/Player/Footspeps/P_Footspets_Rock
   <p_Footsteps_Grass>k__BackingField:
     Guid:
       Data1: -1183246775
@@ -67970,7 +68688,7 @@ MonoBehaviour:
       Data3: 431011499
       Data4: -70166912
     type: 0
-    Path: event:/Player/Footspeps/P_Footspets_Grass
+    Path: event:/SFX/Player/Footspeps/P_Footspets_Grass
   <p_Footsteps_Dirt>k__BackingField:
     Guid:
       Data1: -292686945
@@ -67978,7 +68696,7 @@ MonoBehaviour:
       Data3: -874185579
       Data4: 1483266877
     type: 0
-    Path: event:/Player/Footspeps/P_Footspets_Dirt
+    Path: event:/SFX/Player/Footspeps/P_Footspets_Dirt
   <jump>k__BackingField:
     Guid:
       Data1: -382841198
@@ -67986,7 +68704,7 @@ MonoBehaviour:
       Data3: -767969122
       Data4: -1266412880
     type: 1
-    Path: event:/Player/Jump/Jump
+    Path: event:/SFX/Player/Jump/Jump
   <jumpLanding>k__BackingField:
     Guid:
       Data1: -572456686
@@ -67994,7 +68712,7 @@ MonoBehaviour:
       Data3: -827924335
       Data4: 1893750154
     type: 1
-    Path: event:/Player/Jump/JumpLanding
+    Path: event:/SFX/Player/Jump/JumpLanding
 --- !u!1 &1301329017 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1091396303871008, guid: d3c9d0f652fa2454eb70f623ca29ddc4, type: 3}
@@ -73193,13 +73911,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1423229973}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &1423229970 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 1423229969}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1423229973
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 674359340}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &1424636212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75508,13 +76269,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1477820294}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &1477820291 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 1477820290}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1477820294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 770266796}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &1477967499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75747,13 +76551,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1482987019}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &1482987016 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 1482987015}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1482987019
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1164632111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1 &1483553981 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
@@ -76227,6 +77074,11 @@ PrefabInstance:
 Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 4fc13c77ac16e204d961d1f47541e29c, type: 3}
   m_PrefabInstance: {fileID: 1495616518}
+  m_PrefabAsset: {fileID: 0}
+--- !u!1 &1496890862 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100014, guid: 1d0aee27deb036444829b22bc0242535, type: 3}
+  m_PrefabInstance: {fileID: 1541308301}
   m_PrefabAsset: {fileID: 0}
 --- !u!1 &1497295181 stripped
 GameObject:
@@ -76902,6 +77754,89 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 4b4cdb55dada4b84290580ec632b39b0, type: 3}
   m_PrefabInstance: {fileID: 2113278744}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1508752783
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1508752784}
+  - component: {fileID: 1508752787}
+  - component: {fileID: 1508752786}
+  - component: {fileID: 1508752785}
+  m_Layer: 0
+  m_Name: Village
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1508752784
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508752783}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.7, y: 0, z: -9.57}
+  m_LocalScale: {x: 163.73, y: 12.3, z: 73.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1034959886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1508752785
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508752783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29f788f195f78d4baa787f43732a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientArea:
+    Guid:
+      Data1: -382841198
+      Data2: 1173743153
+      Data3: -767969122
+      Data4: -1266412880
+    type: 0
+    Path: event:/SFX/Player/Jump/Jump
+--- !u!65 &1508752786
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508752783}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1508752787
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508752783}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1509248184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78301,6 +79236,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 54c5a00fc75fc854ca53900fe513f638, type: 3}
   m_PrefabInstance: {fileID: 1532970604}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1533415948 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 1983931596}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1533825443
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78999,13 +79939,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100014, guid: 1d0aee27deb036444829b22bc0242535, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1541308303}
   m_SourcePrefab: {fileID: 100100000, guid: 1d0aee27deb036444829b22bc0242535, type: 3}
 --- !u!4 &1541308302 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400014, guid: 1d0aee27deb036444829b22bc0242535, type: 3}
   m_PrefabInstance: {fileID: 1541308301}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1541308303
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1496890862}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 6
+  OverrideMaxDistance: 15
+  _sound:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
 --- !u!1001 &1542723841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81566,6 +82549,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: 4fc13c77ac16e204d961d1f47541e29c, type: 3}
   m_PrefabInstance: {fileID: 1584549988}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1586075784 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 1748913002}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1587904746
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81740,13 +82728,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1590948439}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &1590948436 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 1590948435}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1590948439
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271993611}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &1591004851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -85347,6 +86378,11 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 3ba18024abdc5834ebb6ca252e273790, type: 3}
   m_PrefabInstance: {fileID: 1682416279}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1682525384 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
+  m_PrefabInstance: {fileID: 1928693122}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1682758371 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 04e0ab4312f682f439b88c86a65672e0, type: 3}
@@ -88402,13 +89438,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1748913006}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &1748913003 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 1748913002}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1748913006
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1586075784}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &1752395158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90420,13 +91499,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1801518503}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &1801518500 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 1801518499}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1801518503
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 586974487}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &1803470517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -92611,6 +93733,24 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.7234417
   m_Center: {x: -0.018402876, y: -0.004896522, z: 0.00038528632}
+--- !u!1 &1845449476 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100000, guid: ce36f87d0964b71438a24600649180ba, type: 3}
+  m_PrefabInstance: {fileID: 64011536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1845449477
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845449476}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2471c7344bc84b41b5cc9d8f14572ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
 --- !u!1001 &1845484599
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94329,7 +95469,7 @@ GameObject:
   - component: {fileID: 1870989479}
   m_Layer: 0
   m_Name: Player
-  m_TagString: Untagged
+  m_TagString: Player
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
@@ -96626,6 +97766,51 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: f52a56c4da29c034f9836ff268f823d6, type: 3}
   m_PrefabInstance: {fileID: 1905000762}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1906630014 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 923304988}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1906630017
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1906630014}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &1906678984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -96960,6 +98145,89 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400008, guid: a2ee3a78d0b205f40a3fe9f728e70ba3, type: 3}
   m_PrefabInstance: {fileID: 1914331966}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1916052724
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1916052725}
+  - component: {fileID: 1916052728}
+  - component: {fileID: 1916052727}
+  - component: {fileID: 1916052726}
+  m_Layer: 0
+  m_Name: Forest
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1916052725
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916052724}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -25.7, y: 0, z: -83.12}
+  m_LocalScale: {x: 163.73, y: 12.3, z: 73.3}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1034959886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1916052726
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916052724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29f788f195f78d4baa787f43732a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  ambientArea:
+    Guid:
+      Data1: -382841198
+      Data2: 1173743153
+      Data3: -767969122
+      Data4: -1266412880
+    type: 0
+    Path: event:/SFX/Player/Jump/Jump
+--- !u!65 &1916052727
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916052724}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1916052728
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916052724}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1 &1916516926 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
@@ -97484,13 +98752,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1928693127}
   m_SourcePrefab: {fileID: 100100000, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
 --- !u!4 &1928693123 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
   m_PrefabInstance: {fileID: 1928693122}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1928693127
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1682525384}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 6
+  OverrideMaxDistance: 15
+  _sound:
+    Guid:
+      Data1: -567040234
+      Data2: 1241991661
+      Data3: -1094797182
+      Data4: -655264973
+    type: 0
+    Path: event:/SFX/Village/PeopleTalkingInside
 --- !u!1001 &1932376495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100051,13 +101362,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1983931600}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &1983931597 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 1983931596}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1983931600
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1533415948}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &1984219412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100213,13 +101567,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1988667848}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &1988667845 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 1988667844}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &1988667848
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1044954108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &1988833255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -103415,6 +104812,9 @@ PrefabInstance:
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100002, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2059910079}
     - targetCorrespondingSourceObject: {fileID: 155528, guid: 44eb32dcdfb035f4cb156673d7722d3a, type: 3}
       insertIndex: -1
       addedObject: {fileID: 2059910074}
@@ -103452,6 +104852,46 @@ MonoBehaviour:
   m_LightCookieSize: {x: 1, y: 1}
   m_LightCookieOffset: {x: 0, y: 0}
   m_SoftShadowQuality: 0
+--- !u!114 &2059910079
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 856554728}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &2059965202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104997,13 +106437,56 @@ PrefabInstance:
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
-    m_AddedComponents: []
+    m_AddedComponents:
+    - targetCorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 2103266168}
   m_SourcePrefab: {fileID: 100100000, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
 --- !u!4 &2103266165 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 400012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
   m_PrefabInstance: {fileID: 2103266164}
   m_PrefabAsset: {fileID: 0}
+--- !u!114 &2103266168
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1220502304}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1 &2104507459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1698221019293936, guid: d3c9d0f652fa2454eb70f623ca29ddc4, type: 3}
@@ -106395,6 +107878,51 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.7234417
   m_Center: {x: -0.018395247, y: -0.0048927073, z: 0.000389101}
+--- !u!1 &2136383991 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100012, guid: f632ee341faffa64ebfa4e2c74d6e422, type: 3}
+  m_PrefabInstance: {fileID: 297545989}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2136383994
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2136383991}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -312190493
+      Data2: 1225942808
+      Data3: 590570651
+      Data4: 1275018580
+    type: 0
+    Path: event:/SFX/Village/Torch
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 2
+  OverrideMaxDistance: 8
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1 &2137819151 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1714520172588540, guid: 3cca52cbde86d5245aa256404e0a194d, type: 3}
@@ -106928,3 +108456,4 @@ SceneRoots:
   - {fileID: 2000448351}
   - {fileID: 1870989477}
   - {fileID: 1048244548}
+  - {fileID: 1034959886}
