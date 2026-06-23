@@ -49,7 +49,7 @@ public class AudioManager : MonoBehaviour
         ambienceBus = RuntimeManager.GetBus("bus:/Ambience");
         sfxBus = RuntimeManager.GetBus("bus:/SFX");*/
         
-        InitializeAmbience(FMODEvents.instance.ambience);
+        InitializeAmbience(FMODEvents.instance.a_Sea_Ambient);
         InitializeMusic(FMODEvents.instance.music);
     }
 
@@ -119,5 +119,25 @@ public class AudioManager : MonoBehaviour
     private void OnDestroy()
     {
         CleanUp();
+    }
+    
+    public string GetParametersNames(EventDescription eventDescription)
+    {
+        string name = string.Empty;
+        if (eventDescription.isValid())
+        {
+            eventDescription.getParameterDescriptionCount(out int parameterCount);
+            
+            for (int i = 0; i < parameterCount; i++)
+            {
+                eventDescription.getParameterDescriptionByIndex(i, out PARAMETER_DESCRIPTION paramDescription);
+                
+                name = paramDescription.name;
+                float min = paramDescription.minimum;
+                float max = paramDescription.maximum;
+            }
+        }
+
+        return name;
     }
 }
