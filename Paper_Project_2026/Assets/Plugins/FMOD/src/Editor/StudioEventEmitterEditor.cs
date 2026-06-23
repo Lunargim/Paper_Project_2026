@@ -6,7 +6,7 @@ using UnityEngine;
 
 namespace FMODUnity
 {
-    [CustomEditor(typeof(StudioEventEmitter))]
+    [CustomEditor(typeof(StudioEventEmitter), true)]
     [CanEditMultipleObjects]
     public class StudioEventEmitterEditor : Editor
     {
