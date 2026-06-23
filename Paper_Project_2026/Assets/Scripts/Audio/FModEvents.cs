@@ -6,10 +6,15 @@ public class FMODEvents : MonoBehaviour
     public static FMODEvents instance {get; private set;}
     
     [field: Header("Ambience")]
-    [field: SerializeField] public EventReference ambience { get; private set; }
+    [field: SerializeField] public EventReference a_General_Ambient { get; private set; }
+    [field: SerializeField] public EventReference a_Sea_Ambient { get; private set; }
 
     [field: Header("Music")]
     [field: SerializeField] public EventReference music { get; private set; }
+    
+    [field: Header("SFX")] 
+    [field: SerializeField] public EventReference SFX_People_Talking_Inside { get; private set; }
+    [field: SerializeField] public EventReference SFX_Torch { get; private set; }
     
     [field: Header("Player")] 
     
