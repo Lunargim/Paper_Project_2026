@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<objects serializationModel="Studio.02.03.00">
+	<object class="ParameterPreset" id="{e47fcf1c-16fd-43b0-85f4-2e173c89ee4b}">
+		<property name="name">
+			<value>village_intensity</value>
+		</property>
+		<relationship name="folder">
+			<destination>{0c2b1c10-2c07-42eb-8cf9-b0046dc94765}</destination>
+		</relationship>
+		<relationship name="parameter">
+			<destination>{b1000fcf-dc0c-4722-bf97-ae7bdbbcdfc9}</destination>
+		</relationship>
+	</object>
+	<object class="GameParameter" id="{b1000fcf-dc0c-4722-bf97-ae7bdbbcdfc9}">
+		<property name="initialValue">
+			<value>0</value>
+		</property>
+	</object>
+</objects>
