@@ -9,19 +9,6 @@ public class AmbientArea : MonoBehaviour
     private void OnTriggerEnter(Collider other)
     {
         if (other.CompareTag("Player"))
-        {
-            EventDescription eventDescription = RuntimeManager.GetEventDescription(ambientArea);
-            AudioManager.instance.SetAmbienceParameter(AudioManager.instance.GetParametersNames(eventDescription), 1);
-        }
+            AudioManager.instance.ChangeAmbience(ambientArea);
     }
-
-    private void OnTriggerExit(Collider other)
-    {
-        if (other.CompareTag("Player"))
-        {
-            EventDescription eventDescription = RuntimeManager.GetEventDescription(ambientArea);
-            AudioManager.instance.SetAmbienceParameter(AudioManager.instance.GetParametersNames(eventDescription), 0);
-        }
-    }
-    
 }

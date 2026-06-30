@@ -25,6 +25,7 @@ public class AudioManager : MonoBehaviour
     private List<StudioEventEmitter> eventEmitters;
 
     private EventInstance ambienceEventInstance;
+    private FMOD.GUID currentAmbienceId;
     private EventInstance musicEventInstance;
 
     public static AudioManager instance { get; private set; }
@@ -49,7 +50,7 @@ public class AudioManager : MonoBehaviour
         ambienceBus = RuntimeManager.GetBus("bus:/Ambience");
         sfxBus = RuntimeManager.GetBus("bus:/SFX");*/
         
-        InitializeAmbience(FMODEvents.instance.a_Sea_Ambient);
+        InitializeAmbience(FMODEvents.instance.a_Village_Ambient);
         InitializeMusic(FMODEvents.instance.music);
     }
 
@@ -67,15 +68,40 @@ public class AudioManager : MonoBehaviour
         ambienceEventInstance.start();
     }
 
+    public void ChangeAmbience(EventReference newAmbienceEvent)
+    {
+        FMOD.GUID newId = newAmbienceEvent.Guid;
+
+        if (ambienceEventInstance.isValid() && newId == currentAmbienceId)
+            return;
+
+        if (ambienceEventInstance.isValid())
+        {
+            ambienceEventInstance.stop(FMOD.Studio.STOP_MODE.ALLOWFADEOUT);
+            StartCoroutine(ReleaseWhenStopped(ambienceEventInstance));
+        }
+
+        ambienceEventInstance = CreateEventInstance(newAmbienceEvent);
+        currentAmbienceId = newId;
+        ambienceEventInstance.start();
+    }
+
+    private IEnumerator ReleaseWhenStopped(EventInstance instance)
+    {
+        PLAYBACK_STATE state;
+        do
+        {
+            yield return null;
+            instance.getPlaybackState(out state);
+        } while (state != PLAYBACK_STATE.STOPPED);
+
+        instance.release();
+    }
+    
     private void InitializeMusic(EventReference musicEventReference)
     {
         musicEventInstance = CreateEventInstance(musicEventReference);
         musicEventInstance.start();
-    }
-
-    public void SetAmbienceParameter(string parameterName, float parameterValue)
-    {
-        ambienceEventInstance.setParameterByName(parameterName, parameterValue);
     }
 
     public void SetMusicArea(MusicArea area)
