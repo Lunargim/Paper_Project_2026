@@ -1891,6 +1891,24 @@ LightProbeGroup:
   - {x: 24.668812, y: 3.3003914, z: 31.599556}
   - {x: 22.163376, y: 5.919516, z: -9.00954}
   m_Dering: 0
+--- !u!1 &37114379 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100004, guid: ce36f87d0964b71438a24600649180ba, type: 3}
+  m_PrefabInstance: {fileID: 64011536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &37114383
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 37114379}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2471c7344bc84b41b5cc9d8f14572ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
 --- !u!1001 &38183215
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -3470,6 +3488,12 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 100078, guid: ce36f87d0964b71438a24600649180ba, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1158077593}
+    - targetCorrespondingSourceObject: {fileID: 100004, guid: ce36f87d0964b71438a24600649180ba, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 37114383}
+    - targetCorrespondingSourceObject: {fileID: 100006, guid: ce36f87d0964b71438a24600649180ba, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 1754108880}
   m_SourcePrefab: {fileID: 100100000, guid: ce36f87d0964b71438a24600649180ba, type: 3}
 --- !u!4 &64011537 stripped
 Transform:
@@ -63640,7 +63664,7 @@ Transform:
   m_GameObject: {fileID: 1203882693}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.7, y: 0, z: 53}
+  m_LocalPosition: {x: -25.7, y: 4.1, z: 53}
   m_LocalScale: {x: 163.73, y: 12.3, z: 51.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -63664,8 +63688,8 @@ MonoBehaviour:
       Data2: 1268161989
       Data3: 759961484
       Data4: -670713089
-    type: 0
-    Path: event:/Ambient/Wind
+    type: 2
+    Path: event:/Ambient/Sea
 --- !u!65 &1203882696
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -68625,14 +68649,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df7c57fa1d74cfc4e8c168f482354410, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  <a_General_Ambient>k__BackingField:
-    Guid:
-      Data1: -382841198
-      Data2: 1173743153
-      Data3: -767969122
-      Data4: -1266412880
-    type: 0
-    Path: event:/SFX/Player/Jump/Jump
   <a_Sea_Ambient>k__BackingField:
     Guid:
       Data1: -2089680694
@@ -68640,7 +68656,15 @@ MonoBehaviour:
       Data3: 759961484
       Data4: -670713089
     type: 2
-    Path: event:/Ambient/Wind
+    Path: event:/Ambient/Sea
+  <a_Village_Ambient>k__BackingField:
+    Guid:
+      Data1: -100372603
+      Data2: 1259101335
+      Data3: 41827205
+      Data4: -14747035
+    type: 2
+    Path: event:/Ambient/Village
   <music>k__BackingField:
     Guid:
       Data1: -382841198
@@ -77782,8 +77806,8 @@ Transform:
   m_GameObject: {fileID: 1508752783}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.7, y: 0, z: -9.57}
-  m_LocalScale: {x: 163.73, y: 12.3, z: 73.3}
+  m_LocalPosition: {x: -25.7, y: 10.4, z: -9.57}
+  m_LocalScale: {x: 163.73, y: 16.6, z: 73.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1034959886}
@@ -77802,12 +77826,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ambientArea:
     Guid:
-      Data1: -382841198
-      Data2: 1173743153
-      Data3: -767969122
-      Data4: -1266412880
-    type: 0
-    Path: event:/SFX/Player/Jump/Jump
+      Data1: -100372603
+      Data2: 1259101335
+      Data3: 41827205
+      Data4: -14747035
+    type: 2
+    Path: event:/Ambient/Village
 --- !u!65 &1508752786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -89794,6 +89818,24 @@ SphereCollider:
   serializedVersion: 3
   m_Radius: 1.73255
   m_Center: {x: -0.0092846155, y: -0.005853772, z: -0.0041709538}
+--- !u!1 &1754108876 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 100006, guid: ce36f87d0964b71438a24600649180ba, type: 3}
+  m_PrefabInstance: {fileID: 64011536}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1754108880
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1754108876}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e2471c7344bc84b41b5cc9d8f14572ce, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  type: 1
 --- !u!1 &1754676714
 GameObject:
   m_ObjectHideFlags: 0
@@ -98173,8 +98215,8 @@ Transform:
   m_GameObject: {fileID: 1916052724}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -25.7, y: 0, z: -83.12}
-  m_LocalScale: {x: 163.73, y: 12.3, z: 73.3}
+  m_LocalPosition: {x: -25.7, y: 8.1, z: -83.12}
+  m_LocalScale: {x: 163.73, y: 17.1, z: 73.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 1034959886}
@@ -98193,12 +98235,12 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   ambientArea:
     Guid:
-      Data1: -382841198
-      Data2: 1173743153
-      Data3: -767969122
-      Data4: -1266412880
-    type: 0
-    Path: event:/SFX/Player/Jump/Jump
+      Data1: -100372603
+      Data2: 1259101335
+      Data3: 41827205
+      Data4: -14747035
+    type: 2
+    Path: event:/Ambient/Village
 --- !u!65 &1916052727
 BoxCollider:
   m_ObjectHideFlags: 0
