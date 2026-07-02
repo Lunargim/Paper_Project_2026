@@ -32,7 +32,7 @@ public class PhaseManager : MonoBehaviour
 
 public enum GamePhase
 {
-    Rain,
     Sun,
+    Rain,
 }
 

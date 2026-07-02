@@ -27,6 +27,87 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 0
+--- !u!114 &-7841471860793874997
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Music/MusicLevel0
+  m_EditorClassIdentifier: 
+  Path: event:/Music/MusicLevel0
+  Guid:
+    Data1: -1166788750
+    Data2: 1154499687
+    Data3: 72142753
+    Data4: -726394769
+  Banks:
+  - {fileID: 6942629169207197638}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 4822564991908003369}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
+--- !u!114 &-6468359774380042449
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: snapshot:/New Snapshot
+  m_EditorClassIdentifier: 
+  Path: snapshot:/New Snapshot
+  Guid:
+    Data1: -325082269
+    Data2: 1121776732
+    Data3: 1331161223
+    Data4: 1985635840
+  Banks:
+  - {fileID: 3877386852350748615}
+  IsStream: 0
+  Is3D: 0
+  IsOneShot: 0
+  Parameters: []
+  MinDistance: 0
+  MaxDistance: 0
+  Length: 0
+--- !u!114 &-3331575877579747096
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Sea/weather
+  m_EditorClassIdentifier: 
+  Name: weather
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2349417301
+    data2: 434035160
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Sun
+  - Rain
+  Exists: 1
 --- !u!114 &-3017287616419785939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -42,10 +123,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Ambient.bank
   Name: Ambient
   StudioPath: bank:/Ambient
-  lastModified: 639185860002616713
+  lastModified: 639186117172507890
   FileSizes:
   - Name: Desktop
-    Value: 2022208
+    Value: 8889792
   Exists: 1
 --- !u!114 &-2115703387609013279
 MonoBehaviour:
@@ -62,37 +143,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639178237523971284
+  lastModified: 639186105442461278
   FileSizes:
   - Name: Desktop
     Value: 1447392
-  Exists: 1
---- !u!114 &-1804707874366608945
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
-  m_Name: parameter:/MusicLevel/area
-  m_EditorClassIdentifier: 
-  Name: area
-  StudioPath: 
-  Min: 0
-  Max: 2
-  Default: 0
-  ID:
-    data1: 3312677854
-    data2: 2110626929
-  Type: 2
-  IsGlobal: 0
-  Labels:
-  - village
-  - sea
-  - forest
   Exists: 1
 --- !u!114 &-1669843054016917336
 MonoBehaviour:
@@ -163,38 +217,11 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Player.bank
   Name: Player
   StudioPath: bank:/Player
-  lastModified: 639178096145503809
+  lastModified: 639186105442281581
   FileSizes:
   - Name: Desktop
     Value: 75520
   Exists: 1
---- !u!114 &-433442086963647285
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambient/Sea
-  m_EditorClassIdentifier: 
-  Path: event:/Ambient/Sea
-  Guid:
-    Data1: -2089680694
-    Data2: 1268161989
-    Data3: 759961484
-    Data4: -670713089
-  Banks:
-  - {fileID: -3017287616419785939}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 85712
 --- !u!114 &11400000
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -223,16 +250,17 @@ MonoBehaviour:
   - {fileID: -1126235819911249817}
   - {fileID: -1669843054016917336}
   - {fileID: 7390050897312621449}
-  - {fileID: 6984603327461188955}
-  - {fileID: -433442086963647285}
-  - {fileID: 8243050831499934151}
+  - {fileID: -6468359774380042449}
+  - {fileID: -7841471860793874997}
+  - {fileID: 408083026669824434}
+  - {fileID: 3325957400740085060}
   EditorParameters: []
   MasterBanks:
   - {fileID: 3877386852350748615}
   StringsBanks:
   - {fileID: 682088519476137282}
   cacheVersion: 131859
-  cacheTime: 639185875757010426
+  cacheTime: 639186117172507890
   SerializableEventsDict:
   - key: event:/SFX/Player/Jump/JumpLanding
     index: 0
@@ -250,12 +278,42 @@ MonoBehaviour:
     index: 6
   - key: event:/SFX/Village/Torch
     index: 7
-  - key: event:/Ambient/Village
+  - key: snapshot:/New Snapshot
     index: 8
-  - key: event:/Ambient/Sea
+  - key: event:/Music/MusicLevel0
     index: 9
-  - key: event:/Music/MusicLevel
+  - key: event:/Ambient/Village
     index: 10
+  - key: event:/Ambient/Sea
+    index: 11
+--- !u!114 &408083026669824434
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/Village
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/Village
+  Guid:
+    Data1: -100372603
+    Data2: 1259101335
+    Data3: 41827205
+    Data4: -14747035
+  Banks:
+  - {fileID: -3017287616419785939}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: 1840340702436601042}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &682088519476137282
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -271,10 +329,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639185875749333615
+  lastModified: 639186115268104495
   FileSizes:
   - Name: Desktop
-    Value: 1500
+    Value: 1726
   Exists: 1
 --- !u!114 &1045663164792048606
 MonoBehaviour:
@@ -303,6 +361,32 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 580
+--- !u!114 &1840340702436601042
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Village/weather
+  m_EditorClassIdentifier: 
+  Name: weather
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 2349417301
+    data2: 434035160
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - Sun
+  - Rain
+  Exists: 1
 --- !u!114 &1991855617337218195
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -330,6 +414,34 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 850
+--- !u!114 &3325957400740085060
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
+  m_Name: event:/Ambient/Sea
+  m_EditorClassIdentifier: 
+  Path: event:/Ambient/Sea
+  Guid:
+    Data1: -2089680694
+    Data2: 1268161989
+    Data3: 759961484
+    Data4: -670713089
+  Banks:
+  - {fileID: -3017287616419785939}
+  IsStream: 1
+  Is3D: 0
+  IsOneShot: 0
+  Parameters:
+  - {fileID: -3331575877579747096}
+  MinDistance: 1
+  MaxDistance: 20
+  Length: 0
 --- !u!114 &3877386852350748615
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -345,10 +457,37 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639185875749318623
+  lastModified: 639186115268104495
   FileSizes:
   - Name: Desktop
-    Value: 1074
+    Value: 2000
+  Exists: 1
+--- !u!114 &4822564991908003369
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/MusicLevel0/area
+  m_EditorClassIdentifier: 
+  Name: area
+  StudioPath: 
+  Min: 0
+  Max: 2
+  Default: 0
+  ID:
+    data1: 3312677854
+    data2: 2110626929
+  Type: 2
+  IsGlobal: 0
+  Labels:
+  - village
+  - sea
+  - forest
   Exists: 1
 --- !u!114 &6942629169207197638
 MonoBehaviour:
@@ -365,38 +504,11 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Music.bank
   Name: Music
   StudioPath: bank:/Music
-  lastModified: 639185875757010426
+  lastModified: 639186105442691674
   FileSizes:
   - Name: Desktop
     Value: 813888
   Exists: 1
---- !u!114 &6984603327461188955
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Ambient/Village
-  m_EditorClassIdentifier: 
-  Path: event:/Ambient/Village
-  Guid:
-    Data1: -100372603
-    Data2: 1259101335
-    Data3: 41827205
-    Data4: -14747035
-  Banks:
-  - {fileID: -3017287616419785939}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 74832
 --- !u!114 &7390050897312621449
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -448,34 +560,6 @@ MonoBehaviour:
   Is3D: 1
   IsOneShot: 1
   Parameters: []
-  MinDistance: 1
-  MaxDistance: 20
-  Length: 0
---- !u!114 &8243050831499934151
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 0}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: ceb653cd98e289a4e8697a1af55201f2, type: 3}
-  m_Name: event:/Music/MusicLevel
-  m_EditorClassIdentifier: 
-  Path: event:/Music/MusicLevel
-  Guid:
-    Data1: -1166788750
-    Data2: 1154499687
-    Data3: 72142753
-    Data4: -726394769
-  Banks:
-  - {fileID: 6942629169207197638}
-  IsStream: 1
-  Is3D: 0
-  IsOneShot: 0
-  Parameters:
-  - {fileID: -1804707874366608945}
   MinDistance: 1
   MaxDistance: 20
   Length: 0

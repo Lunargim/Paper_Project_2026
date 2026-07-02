@@ -1,8 +1,12 @@
-public enum MusicArea
+using UnityEngine;
+
+public class MusicArea : MonoBehaviour
 {
-    GRAY_AREA = 0,
-    BLUE_AREA = 1,
-    VILLAGE_AREA = 0,
-    BEACH_AREA = 1,
-    FOREST_AREA = 1
+    [SerializeField] private MusicAreaType _musicArea;
+    
+    private void OnTriggerEnter(Collider other)
+    {
+        if (other.CompareTag("Player"))
+            AudioManager.instance.SetMusicArea(_musicArea);
+    }
 }

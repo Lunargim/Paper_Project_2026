@@ -198,6 +198,7 @@ MonoBehaviour:
   - Master
   Banks:
   - Ambient
+  - Music
   - Player
   - SFX
   BanksToLoad: []
