@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="EncodableAsset" id="{804b9987-6b0a-44ed-94e7-539f91a376bf}">
+	<object class="EncodableAsset" id="{c3340c83-ca5c-4bc7-937d-26ea804b7b32}">
 		<property name="assetPath">
-			<value>Ambience/Forest/</value>
+			<value>Ambience/Village/</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{c336cce7-112a-49f5-9ba1-2b99c2527f76}</destination>

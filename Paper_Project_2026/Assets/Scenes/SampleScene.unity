@@ -67204,7 +67204,7 @@ MonoBehaviour:
       Data3: 72142753
       Data4: -726394769
     type: 3
-    Path: event:/Music/MusicLevel0
+    Path: event:/Music/MusicLevel
 --- !u!1 &1270594271 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1139381410635632, guid: d847662c87650af43970fd3f56863e4b, type: 3}
@@ -69774,7 +69774,7 @@ MonoBehaviour:
       Data3: 72142753
       Data4: -726394769
     type: 3
-    Path: event:/Music/MusicLevel0
+    Path: event:/Music/MusicLevel
   <SFX_People_Talking_Inside>k__BackingField:
     Guid:
       Data1: -567040234

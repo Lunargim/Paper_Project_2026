@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <objects serializationModel="Studio.02.03.00">
-	<object class="AudioFile" id="{5a1a5e93-6124-4fbd-9bf9-4050e0dedc01}">
+	<object class="AudioFile" id="{fa65c803-590c-499c-88fb-8b0127731616}">
 		<property name="assetPath">
-			<value>Ambience/Forest/amb_forest_rain_outside_big.ogg</value>
+			<value>Ambience/Village/Village+rain.wav</value>
 		</property>
 		<property name="isStreaming">
 			<value>true</value>
@@ -14,7 +14,7 @@
 			<value>2</value>
 		</property>
 		<property name="length">
-			<value>37.5</value>
+			<value>477.75666666666666</value>
 		</property>
 		<relationship name="masterAssetFolder">
 			<destination>{c336cce7-112a-49f5-9ba1-2b99c2527f76}</destination>
