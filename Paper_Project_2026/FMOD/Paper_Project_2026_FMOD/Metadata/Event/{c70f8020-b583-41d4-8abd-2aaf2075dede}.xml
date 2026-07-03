@@ -2,13 +2,13 @@
 <objects serializationModel="Studio.02.03.00">
 	<object class="Event" id="{c70f8020-b583-41d4-8abd-2aaf2075dede}">
 		<property name="name">
-			<value>New Event</value>
+			<value>Birds</value>
 		</property>
 		<property name="outputFormat">
 			<value>2</value>
 		</property>
 		<relationship name="folder">
-			<destination>{dfb83f52-61cb-4463-8106-ec9dbd205eda}</destination>
+			<destination>{c5b6df5b-70a2-4bf0-8d2f-450eea67b9dd}</destination>
 		</relationship>
 		<relationship name="mixer">
 			<destination>{dde073ad-acd0-47ad-93ac-a47e8a2a71e0}</destination>
@@ -31,6 +31,9 @@
 		<relationship name="timeline">
 			<destination>{a9a5f7c9-a8e5-47a8-b699-a11ee3ae964e}</destination>
 		</relationship>
+		<relationship name="banks">
+			<destination>{47e0a970-81e9-40ad-9b62-a76cfe4e6105}</destination>
+		</relationship>
 	</object>
 	<object class="EventMixer" id="{dde073ad-acd0-47ad-93ac-a47e8a2a71e0}">
 		<relationship name="masterBus">
@@ -50,7 +53,7 @@
 			<destination>{e1172865-64c2-4dff-b49b-a5e0bda5d90d}</destination>
 		</relationship>
 		<relationship name="output">
-			<destination>{f04eb63a-84f3-4c5f-9e72-21e99ede8b4d}</destination>
+			<destination>{5e9c165a-2725-4e18-960c-e43d035b73a1}</destination>
 		</relationship>
 	</object>
 	<object class="EventAutomatableProperties" id="{50dfca24-e9c4-4e85-90ca-a801516e57d9}" />

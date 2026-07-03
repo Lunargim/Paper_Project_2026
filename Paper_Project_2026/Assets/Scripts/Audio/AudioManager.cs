@@ -153,6 +153,14 @@ public class AudioManager : MonoBehaviour
         RuntimeManager.PlayOneShot(sound, worldPos);
     }
     
+    //--------------------------EFFECTS----------------------------
+
+    public void SetGlobalParameter(string parameterName, float value)
+    {
+        RuntimeManager.StudioSystem.setParameterByName(parameterName, value);
+    }
+
+    
     //--------------------------GENERAL----------------------------
 
     public EventInstance CreateEventInstance(EventReference eventReference)
@@ -212,8 +220,8 @@ public class AudioManager : MonoBehaviour
     {
         _currentPhase = phase;
  
-        if (_musicEventInstance.isValid())
-            _musicEventInstance.setParameterByName("area", (float)phase);
+        /*if (_musicEventInstance.isValid())
+            _musicEventInstance.setParameterByName("area", (float)phase);*/
  
         if (_ambienceEventInstance.isValid())
             ApplyWeatherParameter(_ambienceEventInstance);

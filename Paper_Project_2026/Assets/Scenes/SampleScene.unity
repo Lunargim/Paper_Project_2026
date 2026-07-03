@@ -2476,6 +2476,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 2af98167059b156448280a0f6b0973f9, type: 3}
   m_PrefabInstance: {fileID: 44923392}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &45136033
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 45136034}
+  - component: {fileID: 45136035}
+  m_Layer: 0
+  m_Name: BirdEmitter1 (1)
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &45136034
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45136033}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 16.32, y: 0, z: 45.3}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 188958891}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &45136035
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 45136033}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -955285472
+      Data2: 1104459139
+      Data3: -1356153462
+      Data4: -555846368
+    type: 2
+    Path: event:/SFX/Village/Birds
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 7.1
+  OverrideMaxDistance: 7.1
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1 &47448014 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 04e0ab4312f682f439b88c86a65672e0, type: 3}
@@ -2764,6 +2836,78 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 04e0ab4312f682f439b88c86a65672e0, type: 3}
   m_PrefabInstance: {fileID: 449716976}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &52397102
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 52397103}
+  - component: {fileID: 52397104}
+  m_Layer: 0
+  m_Name: BirdEmitter1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &52397103
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52397102}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 29.62, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 188958891}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &52397104
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 52397102}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -955285472
+      Data2: 1104459139
+      Data3: -1356153462
+      Data4: -555846368
+    type: 2
+    Path: event:/SFX/Village/Birds
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 15
+  OverrideMaxDistance: 28
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1 &52940413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1049111356224048, guid: d64f762022b554040b62239f44929a54, type: 3}
@@ -5811,12 +5955,12 @@ MonoBehaviour:
   OverrideMaxDistance: 15
   _sound:
     Guid:
-      Data1: -567040234
-      Data2: 1241991661
-      Data3: -1094797182
-      Data4: -655264973
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
     type: 0
-    Path: event:/SFX/Village/PeopleTalkingInside
+    Path: 
 --- !u!1001 &120078581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9545,6 +9689,113 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: b14e561f096a50c47814a074c9a7a49a, type: 3}
   m_PrefabInstance: {fileID: 184045508}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &188958890
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 188958891}
+  m_Layer: 0
+  m_Name: Birds
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &188958891
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 188958890}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 52397103}
+  - {fileID: 45136034}
+  - {fileID: 190249323}
+  - {fileID: 202973037}
+  m_Father: {fileID: 1332069586}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &190249322
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 190249323}
+  - component: {fileID: 190249324}
+  m_Layer: 0
+  m_Name: BirdEmitter2
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &190249323
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190249322}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -60.4, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 188958891}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &190249324
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 190249322}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -955285472
+      Data2: 1104459139
+      Data3: -1356153462
+      Data4: -555846368
+    type: 2
+    Path: event:/SFX/Village/Birds
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 15
+  OverrideMaxDistance: 28
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1 &191517346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
@@ -10067,6 +10318,78 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400002, guid: f8c4dfd0234dcd1479f34df46631187e, type: 3}
   m_PrefabInstance: {fileID: 199906114}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &202973036
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 202973037}
+  - component: {fileID: 202973038}
+  m_Layer: 0
+  m_Name: BirdEmitter3
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &202973037
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202973036}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: -10.8, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 188958891}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &202973038
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 202973036}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 63eb6016e12afaa4199f7b92d0053e10, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  CollisionTag: 
+  EventReference:
+    Guid:
+      Data1: -955285472
+      Data2: 1104459139
+      Data3: -1356153462
+      Data4: -555846368
+    type: 2
+    Path: event:/SFX/Village/Birds
+  Event: 
+  EventPlayTrigger: 1
+  EventStopTrigger: 0
+  AllowFadeout: 1
+  TriggerOnce: 0
+  Preload: 0
+  NonRigidbodyVelocity: 0
+  Params: []
+  OverrideAttenuation: 1
+  OverrideMinDistance: 15
+  OverrideMaxDistance: 28
+  _sound:
+    Guid:
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
+    type: 0
+    Path: 
 --- !u!1001 &203743455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -44404,12 +44727,12 @@ MonoBehaviour:
   OverrideMaxDistance: 15
   _sound:
     Guid:
-      Data1: -567040234
-      Data2: 1241991661
-      Data3: -1094797182
-      Data4: -655264973
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
     type: 0
-    Path: event:/SFX/Village/PeopleTalkingInside
+    Path: 
 --- !u!1001 &801980360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47327,12 +47650,12 @@ MonoBehaviour:
   OverrideMaxDistance: 15
   _sound:
     Guid:
-      Data1: -567040234
-      Data2: 1241991661
-      Data3: -1094797182
-      Data4: -655264973
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
     type: 0
-    Path: event:/SFX/Village/PeopleTalkingInside
+    Path: 
 --- !u!1 &854341943 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1629127632186364, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
@@ -51609,6 +51932,40 @@ GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 4b4cdb55dada4b84290580ec632b39b0, type: 3}
   m_PrefabInstance: {fileID: 1278636043}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &936898671
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 936898672}
+  m_Layer: 0
+  m_Name: Areas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &936898672
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 936898671}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1203882694}
+  - {fileID: 1508752784}
+  - {fileID: 1916052725}
+  m_Father: {fileID: 1034959886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &938162331
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -53002,12 +53359,12 @@ MonoBehaviour:
   OverrideMaxDistance: 15
   _sound:
     Guid:
-      Data1: -567040234
-      Data2: 1241991661
-      Data3: -1094797182
-      Data4: -655264973
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
     type: 0
-    Path: event:/SFX/Village/PeopleTalkingInside
+    Path: 
 --- !u!1 &970211210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1474110974607802, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
@@ -53893,12 +54250,12 @@ MonoBehaviour:
   OverrideMaxDistance: 15
   _sound:
     Guid:
-      Data1: -567040234
-      Data2: 1241991661
-      Data3: -1094797182
-      Data4: -655264973
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
     type: 0
-    Path: event:/SFX/Village/PeopleTalkingInside
+    Path: 
 --- !u!1 &990261982 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1195779352965306, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
@@ -56174,9 +56531,9 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
-  - {fileID: 1203882694}
-  - {fileID: 1508752784}
-  - {fileID: 1916052725}
+  - {fileID: 1332069586}
+  - {fileID: 936898672}
+  - {fileID: 2131254340}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1035175468 stripped
@@ -64415,6 +64772,84 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 02636eff5c81de04694b5fdc5f7f65ab, type: 3}
+--- !u!1 &1199976745
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1199976746}
+  - component: {fileID: 1199976749}
+  - component: {fileID: 1199976748}
+  - component: {fileID: 1199976747}
+  m_Layer: 0
+  m_Name: Area1
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1199976746
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199976745}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: 0.104262106, z: -0, w: 0.99454993}
+  m_LocalPosition: {x: -25.58, y: 6.68, z: -26.79}
+  m_LocalScale: {x: 21.871338, y: 1.7975, z: 11.070056}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1426264073}
+  m_LocalEulerAnglesHint: {x: 0, y: 11.969, z: 0}
+--- !u!114 &1199976747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199976745}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e4fb801e4ee4e9b42868afc8a7a3c32c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _parameterName: Reverb
+  _enterValue: 1
+  _exitValue: 0
+--- !u!65 &1199976748
+BoxCollider:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199976745}
+  m_Material: {fileID: 0}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_LayerOverridePriority: 0
+  m_IsTrigger: 1
+  m_ProvidesContacts: 0
+  m_Enabled: 1
+  serializedVersion: 3
+  m_Size: {x: 1, y: 1, z: 1}
+  m_Center: {x: 0, y: 0, z: 0}
+--- !u!33 &1199976749
+MeshFilter:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1199976745}
+  m_Mesh: {fileID: 10202, guid: 0000000000000000e000000000000000, type: 0}
 --- !u!1001 &1200631039
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -64590,8 +65025,8 @@ GameObject:
   - component: {fileID: 1203882694}
   - component: {fileID: 1203882697}
   - component: {fileID: 1203882696}
-  - component: {fileID: 1203882695}
   - component: {fileID: 1203882698}
+  - component: {fileID: 1203882699}
   m_Layer: 0
   m_Name: Sea
   m_TagString: Untagged
@@ -64607,33 +65042,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1203882693}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -25.7, y: 4.1, z: 53}
   m_LocalScale: {x: 163.73, y: 12.3, z: 51.1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1034959886}
+  m_Father: {fileID: 936898672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1203882695
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1203882693}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f29f788f195f78d4baa787f43732a735, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _ambientArea:
-    Guid:
-      Data1: -2089680694
-      Data2: 1268161989
-      Data3: 759961484
-      Data4: -670713089
-    type: 2
-    Path: event:/Ambient/Sea
 --- !u!65 &1203882696
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -64676,6 +65091,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _musicArea: 1
+--- !u!114 &1203882699
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1203882693}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29f788f195f78d4baa787f43732a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ambientArea:
+    Guid:
+      Data1: -2089680694
+      Data2: 1268161989
+      Data3: 759961484
+      Data4: -670713089
+    type: 2
+    Path: event:/Ambient/Sea
 --- !u!1 &1208423251 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1550670320704150, guid: 0aaaf5da864f53f4186ac02f297713e4, type: 3}
@@ -66960,12 +67395,12 @@ MonoBehaviour:
   OverrideMaxDistance: 15
   _sound:
     Guid:
-      Data1: -567040234
-      Data2: 1241991661
-      Data3: -1094797182
-      Data4: -655264973
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
     type: 0
-    Path: event:/SFX/Village/PeopleTalkingInside
+    Path: 
 --- !u!1001 &1261664595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -71343,6 +71778,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400000, guid: 9c17d66b88dfce54d99d6710ec954c13, type: 3}
   m_PrefabInstance: {fileID: 1331118226}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1332069585
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1332069586}
+  m_Layer: 0
+  m_Name: 3DEmitters
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1332069586
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1332069585}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 188958891}
+  m_Father: {fileID: 1034959886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1333111501
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -75735,6 +76202,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 400010, guid: 2af98167059b156448280a0f6b0973f9, type: 3}
   m_PrefabInstance: {fileID: 1425235824}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &1426264072
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1426264073}
+  m_Layer: 0
+  m_Name: ReverbAreas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1426264073
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1426264072}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1199976746}
+  m_Father: {fileID: 2131254340}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1428179148 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1091396303871008, guid: d3c9d0f652fa2454eb70f623ca29ddc4, type: 3}
@@ -79610,8 +80109,8 @@ GameObject:
   - component: {fileID: 1508752784}
   - component: {fileID: 1508752787}
   - component: {fileID: 1508752786}
-  - component: {fileID: 1508752785}
   - component: {fileID: 1508752788}
+  - component: {fileID: 1508752789}
   m_Layer: 0
   m_Name: Village
   m_TagString: Untagged
@@ -79627,33 +80126,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1508752783}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -25.7, y: 10.4, z: -9.57}
   m_LocalScale: {x: 163.73, y: 16.6, z: 73.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1034959886}
+  m_Father: {fileID: 936898672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1508752785
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1508752783}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f29f788f195f78d4baa787f43732a735, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _ambientArea:
-    Guid:
-      Data1: -100372603
-      Data2: 1259101335
-      Data3: 41827205
-      Data4: -14747035
-    type: 2
-    Path: event:/Ambient/Village
 --- !u!65 &1508752786
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -79696,6 +80175,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _musicArea: 0
+--- !u!114 &1508752789
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1508752783}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29f788f195f78d4baa787f43732a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ambientArea:
+    Guid:
+      Data1: -100372603
+      Data2: 1259101335
+      Data3: 41827205
+      Data4: -14747035
+    type: 2
+    Path: event:/Ambient/Village
 --- !u!1001 &1509248184
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -81953,12 +82452,12 @@ MonoBehaviour:
   OverrideMaxDistance: 15
   _sound:
     Guid:
-      Data1: -567040234
-      Data2: 1241991661
-      Data3: -1094797182
-      Data4: -655264973
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
     type: 0
-    Path: event:/SFX/Village/PeopleTalkingInside
+    Path: 
 --- !u!1001 &1542723841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -100774,8 +101273,8 @@ GameObject:
   - component: {fileID: 1916052725}
   - component: {fileID: 1916052728}
   - component: {fileID: 1916052727}
-  - component: {fileID: 1916052726}
   - component: {fileID: 1916052729}
+  - component: {fileID: 1916052730}
   m_Layer: 0
   m_Name: Forest
   m_TagString: Untagged
@@ -100791,33 +101290,13 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1916052724}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
   m_LocalPosition: {x: -25.7, y: 8.1, z: -83.12}
   m_LocalScale: {x: 163.73, y: 17.1, z: 73.3}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1034959886}
+  m_Father: {fileID: 936898672}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!114 &1916052726
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1916052724}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f29f788f195f78d4baa787f43732a735, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  _ambientArea:
-    Guid:
-      Data1: -100372603
-      Data2: 1259101335
-      Data3: 41827205
-      Data4: -14747035
-    type: 2
-    Path: event:/Ambient/Village
 --- !u!65 &1916052727
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -100860,6 +101339,26 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   _musicArea: 0
+--- !u!114 &1916052730
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1916052724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: f29f788f195f78d4baa787f43732a735, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _ambientArea:
+    Guid:
+      Data1: -100372603
+      Data2: 1259101335
+      Data3: 41827205
+      Data4: -14747035
+    type: 2
+    Path: event:/Ambient/Village
 --- !u!1 &1916516926 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
@@ -101428,12 +101927,12 @@ MonoBehaviour:
   OverrideMaxDistance: 15
   _sound:
     Guid:
-      Data1: -567040234
-      Data2: 1241991661
-      Data3: -1094797182
-      Data4: -655264973
+      Data1: 0
+      Data2: 0
+      Data3: 0
+      Data4: 0
     type: 0
-    Path: event:/SFX/Village/PeopleTalkingInside
+    Path: 
 --- !u!1001 &1932376495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -110643,6 +111142,38 @@ Transform:
   m_CorrespondingSourceObject: {fileID: 4209614434616532, guid: d3c9d0f652fa2454eb70f623ca29ddc4, type: 3}
   m_PrefabInstance: {fileID: 2128086007}
   m_PrefabAsset: {fileID: 0}
+--- !u!1 &2131254339
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2131254340}
+  m_Layer: 0
+  m_Name: EffectsAreas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2131254340
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2131254339}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children:
+  - {fileID: 1426264073}
+  m_Father: {fileID: 1034959886}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2133224712
 PrefabInstance:
   m_ObjectHideFlags: 0
