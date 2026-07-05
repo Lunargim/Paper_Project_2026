@@ -1,3 +1,4 @@
+using FMODUnity;
 using UnityEngine;
 
 [RequireComponent(typeof(Collider))]

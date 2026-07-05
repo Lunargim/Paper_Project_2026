@@ -342,7 +342,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 682088519476137282}
   cacheVersion: 131859
-  cacheTime: 639186988689027080
+  cacheTime: 639188499507202703
   SerializableEventsDict:
   - key: event:/SFX/Player/Jump/JumpLanding
     index: 0
@@ -411,7 +411,7 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639186988689027080
+  lastModified: 639188499507202703
   FileSizes:
   - Name: Desktop
     Value: 1732
@@ -513,10 +513,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639186988689027080
+  lastModified: 639188499507189294
   FileSizes:
   - Name: Desktop
-    Value: 2186
+    Value: 2310
   Exists: 1
 --- !u!114 &4977180735888841048
 MonoBehaviour:
