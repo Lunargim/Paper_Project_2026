@@ -2531,7 +2531,6 @@ MonoBehaviour:
       Data2: 1104459139
       Data3: -1356153462
       Data4: -555846368
-    type: 2
     Path: event:/SFX/Village/Birds
   Event: 
   EventPlayTrigger: 1
@@ -2889,7 +2888,6 @@ MonoBehaviour:
       Data2: 1104459139
       Data3: -1356153462
       Data4: -555846368
-    type: 2
     Path: event:/SFX/Village/Birds
   Event: 
   EventPlayTrigger: 1
@@ -5944,7 +5942,6 @@ MonoBehaviour:
       Data2: 1241991661
       Data3: -1094797182
       Data4: -655264973
-    type: 0
     Path: event:/SFX/Village/PeopleTalkingInside
   Event: 
   EventPlayTrigger: 1
@@ -7086,7 +7083,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -9775,7 +9771,6 @@ MonoBehaviour:
       Data2: 1104459139
       Data3: -1356153462
       Data4: -555846368
-    type: 2
     Path: event:/SFX/Village/Birds
   Event: 
   EventPlayTrigger: 1
@@ -10367,7 +10362,6 @@ MonoBehaviour:
       Data2: 1104459139
       Data3: -1356153462
       Data4: -555846368
-    type: 2
     Path: event:/SFX/Village/Birds
   Event: 
   EventPlayTrigger: 1
@@ -12302,7 +12296,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -23697,7 +23690,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -42994,7 +42986,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -44742,7 +44733,6 @@ MonoBehaviour:
       Data2: 1241991661
       Data3: -1094797182
       Data4: -655264973
-    type: 0
     Path: event:/SFX/Village/PeopleTalkingInside
   Event: 
   EventPlayTrigger: 1
@@ -47663,7 +47653,6 @@ MonoBehaviour:
       Data2: 1241991661
       Data3: -1094797182
       Data4: -655264973
-    type: 0
     Path: event:/SFX/Village/PeopleTalkingInside
   Event: 
   EventPlayTrigger: 1
@@ -53378,7 +53367,6 @@ MonoBehaviour:
       Data2: 1241991661
       Data3: -1094797182
       Data4: -655264973
-    type: 0
     Path: event:/SFX/Village/PeopleTalkingInside
   Event: 
   EventPlayTrigger: 1
@@ -54267,7 +54255,6 @@ MonoBehaviour:
       Data2: 1241991661
       Data3: -1094797182
       Data4: -655264973
-    type: 0
     Path: event:/SFX/Village/PeopleTalkingInside
   Event: 
   EventPlayTrigger: 1
@@ -65143,7 +65130,6 @@ MonoBehaviour:
       Data2: 1268161989
       Data3: 759961484
       Data4: -670713089
-    type: 2
     Path: event:/Ambient/Sea
 --- !u!1 &1208423251 stripped
 GameObject:
@@ -66517,7 +66503,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -67416,7 +67401,6 @@ MonoBehaviour:
       Data2: 1241991661
       Data3: -1094797182
       Data4: -655264973
-    type: 0
     Path: event:/SFX/Village/PeopleTalkingInside
   Event: 
   EventPlayTrigger: 1
@@ -67672,7 +67656,6 @@ MonoBehaviour:
       Data2: 1154499687
       Data3: 72142753
       Data4: -726394769
-    type: 3
     Path: event:/Music/MusicLevel
 --- !u!1 &1270594271 stripped
 GameObject:
@@ -70226,7 +70209,6 @@ MonoBehaviour:
       Data2: 1268161989
       Data3: 759961484
       Data4: -670713089
-    type: 2
     Path: event:/Ambient/Sea
   <a_Village_Ambient>k__BackingField:
     Guid:
@@ -70234,7 +70216,6 @@ MonoBehaviour:
       Data2: 1259101335
       Data3: 41827205
       Data4: -14747035
-    type: 2
     Path: event:/Ambient/Village
   <musicLevel0>k__BackingField:
     Guid:
@@ -70242,7 +70223,6 @@ MonoBehaviour:
       Data2: 1154499687
       Data3: 72142753
       Data4: -726394769
-    type: 3
     Path: event:/Music/MusicLevel
   <SFX_People_Talking_Inside>k__BackingField:
     Guid:
@@ -70250,7 +70230,6 @@ MonoBehaviour:
       Data2: 1241991661
       Data3: -1094797182
       Data4: -655264973
-    type: 2
     Path: event:/SFX/Village/PeopleTalkingInside
   <SFX_Torch>k__BackingField:
     Guid:
@@ -70258,7 +70237,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 2
     Path: event:/SFX/Village/Torch
   <p_Footsteps_Wood>k__BackingField:
     Guid:
@@ -70266,7 +70244,6 @@ MonoBehaviour:
       Data2: 1113755684
       Data3: -972483656
       Data4: 1154047526
-    type: 0
     Path: event:/SFX/Player/Footspeps/P_Footspets_Wood
   <p_Footsteps_Rock>k__BackingField:
     Guid:
@@ -70274,7 +70251,6 @@ MonoBehaviour:
       Data2: 1254315769
       Data3: -1823268972
       Data4: -1226466303
-    type: 0
     Path: event:/SFX/Player/Footspeps/P_Footspets_Rock
   <p_Footsteps_Grass>k__BackingField:
     Guid:
@@ -70282,7 +70258,6 @@ MonoBehaviour:
       Data2: 1082730059
       Data3: 431011499
       Data4: -70166912
-    type: 0
     Path: event:/SFX/Player/Footspeps/P_Footspets_Grass
   <p_Footsteps_Dirt>k__BackingField:
     Guid:
@@ -70290,7 +70265,6 @@ MonoBehaviour:
       Data2: 1277583072
       Data3: -874185579
       Data4: 1483266877
-    type: 0
     Path: event:/SFX/Player/Footspeps/P_Footspets_Dirt
   <jump>k__BackingField:
     Guid:
@@ -70298,7 +70272,6 @@ MonoBehaviour:
       Data2: 1173743153
       Data3: -767969122
       Data4: -1266412880
-    type: 1
     Path: event:/SFX/Player/Jump/Jump
   <jumpLanding>k__BackingField:
     Guid:
@@ -70306,7 +70279,6 @@ MonoBehaviour:
       Data2: 1193041220
       Data3: -827924335
       Data4: 1893750154
-    type: 1
     Path: event:/SFX/Player/Jump/JumpLanding
 --- !u!1 &1301329017 stripped
 GameObject:
@@ -76078,7 +76050,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -78603,7 +78574,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -78883,7 +78853,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -80225,7 +80194,6 @@ MonoBehaviour:
       Data2: 1259101335
       Data3: 41827205
       Data4: -14747035
-    type: 2
     Path: event:/Ambient/Village
 --- !u!1001 &1509248184
 PrefabInstance:
@@ -82481,7 +82449,6 @@ MonoBehaviour:
       Data2: 1241991661
       Data3: -1094797182
       Data4: -655264973
-    type: 0
     Path: event:/SFX/Village/PeopleTalkingInside
   Event: 
   EventPlayTrigger: 1
@@ -85388,7 +85355,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -92286,7 +92252,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -94500,7 +94465,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -100971,7 +100935,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -101419,7 +101382,6 @@ MonoBehaviour:
       Data2: 1259101335
       Data3: 41827205
       Data4: -14747035
-    type: 2
     Path: event:/Ambient/Village
 --- !u!1 &1916516926 stripped
 GameObject:
@@ -101978,7 +101940,6 @@ MonoBehaviour:
       Data2: 1241991661
       Data3: -1094797182
       Data4: -655264973
-    type: 0
     Path: event:/SFX/Village/PeopleTalkingInside
   Event: 
   EventPlayTrigger: 1
@@ -104590,7 +104551,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -104793,7 +104753,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -108184,7 +108143,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -109927,7 +109885,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1
@@ -111393,7 +111350,6 @@ MonoBehaviour:
       Data2: 1225942808
       Data3: 590570651
       Data4: 1275018580
-    type: 0
     Path: event:/SFX/Village/Torch
   Event: 
   EventPlayTrigger: 1

@@ -7,7 +7,7 @@ namespace FMODUnity
     public struct EventReference
     {
         public FMOD.GUID Guid;
-        public EventReferenceType type;
+        //public EventReferenceType type;
 
 #if UNITY_EDITOR
 #if FMOD_SERIALIZE_GUID_ONLY
@@ -56,13 +56,13 @@ namespace FMODUnity
 #endif
     }
     
-    public enum EventReferenceType
+    /*public enum EventReferenceType
     {
         Footsteps,
         Jump,
         Ambient,
         Music,
-    }
+    }*/
 }
 
 
