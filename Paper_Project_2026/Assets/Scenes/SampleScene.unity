@@ -902,6 +902,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 124
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
       propertyPath: m_RootOrder
       value: 7
@@ -2540,14 +2544,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 7.1
   OverrideMaxDistance: 7.1
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1 &47448014 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 04e0ab4312f682f439b88c86a65672e0, type: 3}
@@ -2900,14 +2902,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 15
   OverrideMaxDistance: 28
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1 &52940413 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1049111356224048, guid: d64f762022b554040b62239f44929a54, type: 3}
@@ -5844,6 +5844,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967293
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -5953,14 +5957,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 6
   OverrideMaxDistance: 15
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1001 &120078581
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -7097,14 +7099,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &148268021
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -9788,14 +9788,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 15
   OverrideMaxDistance: 28
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1 &191517346 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
@@ -10382,14 +10380,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 15
   OverrideMaxDistance: 28
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1001 &203743455
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -12319,14 +12315,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1 &239941608 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1154681350894348, guid: 3307d021f8c7f6d41bd96741ce7ac05e, type: 3}
@@ -13208,6 +13202,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100008, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -20413,6 +20411,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 126
       objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 1134317543a4d0949af5a6b78ad8e9c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400034, guid: 1134317543a4d0949af5a6b78ad8e9c7, type: 3}
       propertyPath: m_RootOrder
       value: 29
@@ -23355,6 +23357,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 126
       objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
       propertyPath: m_RootOrder
       value: 6
@@ -23431,6 +23437,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -23700,14 +23710,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &475274264
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -25674,6 +25682,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100012, guid: 9ac557bbc39bdda4ab5d844355cdb201, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 9ac557bbc39bdda4ab5d844355cdb201, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 124
@@ -32617,6 +32629,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -42987,14 +43003,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1 &767525577 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
@@ -43180,6 +43194,10 @@ PrefabInstance:
     - target: {fileID: 100026, guid: 1134317543a4d0949af5a6b78ad8e9c7, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 1134317543a4d0949af5a6b78ad8e9c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400034, guid: 1134317543a4d0949af5a6b78ad8e9c7, type: 3}
       propertyPath: m_RootOrder
@@ -44507,6 +44525,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100008, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -44615,6 +44637,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -44725,14 +44751,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 6
   OverrideMaxDistance: 15
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1001 &801980360
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -47648,14 +47672,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 6
   OverrideMaxDistance: 15
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1 &854341943 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1629127632186364, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
@@ -48014,6 +48036,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: 4888fbdd6a6d4a7449a47ce78e5e1d95, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100018, guid: 4888fbdd6a6d4a7449a47ce78e5e1d95, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100022, guid: 4888fbdd6a6d4a7449a47ce78e5e1d95, type: 3}
       propertyPath: m_IsActive
@@ -53256,6 +53282,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 124
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
       propertyPath: m_RootOrder
       value: 26
@@ -53357,14 +53387,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 6
   OverrideMaxDistance: 15
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1 &970211210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1474110974607802, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
@@ -54248,14 +54276,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 6
   OverrideMaxDistance: 15
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1 &990261982 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1195779352965306, guid: 215a971f0f2e59047bf9b5991ec49964, type: 3}
@@ -60284,6 +60310,10 @@ PrefabInstance:
     - target: {fileID: 100002, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
       propertyPath: m_RootOrder
@@ -66496,14 +66526,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1 &1239870857 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: 4b4cdb55dada4b84290580ec632b39b0, type: 3}
@@ -67264,6 +67292,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967293
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -67393,14 +67425,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 6
   OverrideMaxDistance: 15
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1001 &1261664595
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -74281,6 +74311,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100008, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -76053,14 +76087,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &1424636212
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78580,14 +78612,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &1477967499
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -78862,14 +78892,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1 &1483553981 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 100002, guid: b6286938954000e4bad9aeb93ef3ca30, type: 3}
@@ -80839,6 +80867,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 126
       objectReference: {fileID: 0}
+    - target: {fileID: 100010, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400010, guid: edc187f9f9ba43449800751ee6d59cec, type: 3}
       propertyPath: m_RootOrder
       value: 25
@@ -82164,6 +82196,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967293
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -82304,6 +82340,10 @@ PrefabInstance:
     - target: {fileID: 100012, guid: 1d0aee27deb036444829b22bc0242535, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: 1d0aee27deb036444829b22bc0242535, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 1d0aee27deb036444829b22bc0242535, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -82450,14 +82490,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 6
   OverrideMaxDistance: 15
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1001 &1542723841
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -84530,6 +84568,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
     - target: {fileID: 100000, guid: bfffe6f87b5561b4bbb7e7bedc02ded6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bfffe6f87b5561b4bbb7e7bedc02ded6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
       objectReference: {fileID: 0}
@@ -85355,14 +85397,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &1591004851
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -90358,6 +90398,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 4294967293
       objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -92251,14 +92295,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &1752395158
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -94467,14 +94509,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &1803470517
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -95839,6 +95879,10 @@ PrefabInstance:
     - target: {fileID: 100000, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
+      objectReference: {fileID: 0}
+    - target: {fileID: 100014, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
+      propertyPath: m_Layer
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 100020, guid: ad3f867a742ace24b9e09aa4c6cfe7f0, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -98394,6 +98438,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 126
       objectReference: {fileID: 0}
+    - target: {fileID: 100034, guid: 1134317543a4d0949af5a6b78ad8e9c7, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400034, guid: 1134317543a4d0949af5a6b78ad8e9c7, type: 3}
       propertyPath: m_RootOrder
       value: 28
@@ -99611,6 +99659,10 @@ PrefabInstance:
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
     - target: {fileID: 100000, guid: bfffe6f87b5561b4bbb7e7bedc02ded6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
+    - target: {fileID: 100000, guid: bfffe6f87b5561b4bbb7e7bedc02ded6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
       objectReference: {fileID: 0}
@@ -99762,6 +99814,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100008, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -100755,6 +100811,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100008, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 3c8ce989a89bfce4da004b17f42d7298, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -100920,14 +100980,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &1906678984
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -101824,6 +101882,10 @@ PrefabInstance:
       propertyPath: m_StaticEditorFlags
       value: 124
       objectReference: {fileID: 0}
+    - target: {fileID: 100048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 400048, guid: 70b1cc9351b9b644f8490dc82ba9ec50, type: 3}
       propertyPath: m_RootOrder
       value: 27
@@ -101925,14 +101987,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 6
   OverrideMaxDistance: 15
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 0
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 0}
 --- !u!1001 &1932376495
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -102768,6 +102828,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100012, guid: 15a4be37a8517f94abaf3ad28701434e, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100014, guid: 15a4be37a8517f94abaf3ad28701434e, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 126
@@ -104535,14 +104599,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &1984219412
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104740,14 +104802,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &1988833255
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -104756,6 +104816,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100000, guid: bfffe6f87b5561b4bbb7e7bedc02ded6, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: bfffe6f87b5561b4bbb7e7bedc02ded6, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967293
@@ -105027,6 +105091,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100012, guid: 9ac557bbc39bdda4ab5d844355cdb201, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100016, guid: 9ac557bbc39bdda4ab5d844355cdb201, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 124
@@ -105446,6 +105514,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 891346000}
     m_Modifications:
+    - target: {fileID: 100016, guid: 0b6b9334267df6640933e6446a286d80, type: 3}
+      propertyPath: m_Layer
+      value: 6
+      objectReference: {fileID: 0}
     - target: {fileID: 100018, guid: 0b6b9334267df6640933e6446a286d80, type: 3}
       propertyPath: m_StaticEditorFlags
       value: 4294967295
@@ -108121,14 +108193,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1001 &2059965202
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -109866,14 +109936,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1 &2104507459 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1698221019293936, guid: d3c9d0f652fa2454eb70f623ca29ddc4, type: 3}
@@ -111334,14 +111402,12 @@ MonoBehaviour:
   OverrideAttenuation: 1
   OverrideMinDistance: 2
   OverrideMaxDistance: 8
-  _sound:
-    Guid:
-      Data1: 0
-      Data2: 0
-      Data3: 0
-      Data4: 0
-    type: 0
-    Path: 
+  _useOcclusion: 1
+  _occlusionLayers:
+    serializedVersion: 2
+    m_Bits: 64
+  _occlusionSmoothTime: 0.2
+  _listener: {fileID: 1870989477}
 --- !u!1 &2137819151 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1714520172588540, guid: 3cca52cbde86d5245aa256404e0a194d, type: 3}

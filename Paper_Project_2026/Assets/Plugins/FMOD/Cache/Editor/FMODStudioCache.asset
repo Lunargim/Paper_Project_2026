@@ -163,6 +163,30 @@ MonoBehaviour:
   - sun
   - rain
   Exists: 1
+--- !u!114 &-4049998021303599747
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/Torch/occlusion
+  m_EditorClassIdentifier: 
+  Name: occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 493995932
+    data2: 1766166238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &-3017287616419785939
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -224,10 +248,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/SFX.bank
   Name: SFX
   StudioPath: bank:/SFX
-  lastModified: 639186124811103230
+  lastModified: 639189325571961435
   FileSizes:
   - Name: Desktop
-    Value: 1447392
+    Value: 1448832
   Exists: 1
 --- !u!114 &-1669843054016917336
 MonoBehaviour:
@@ -252,7 +276,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: 2150868087190495142}
   MinDistance: 1
   MaxDistance: 20
   Length: 98481
@@ -342,7 +367,7 @@ MonoBehaviour:
   StringsBanks:
   - {fileID: 682088519476137282}
   cacheVersion: 131859
-  cacheTime: 639188499507202703
+  cacheTime: 639189325571961435
   SerializableEventsDict:
   - key: event:/SFX/Player/Jump/JumpLanding
     index: 0
@@ -411,10 +436,10 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.strings.bank
   Name: Master.strings
   StudioPath: bank:/Master.strings
-  lastModified: 639188499507202703
+  lastModified: 639189325571498694
   FileSizes:
   - Name: Desktop
-    Value: 1732
+    Value: 1772
   Exists: 1
 --- !u!114 &1045663164792048606
 MonoBehaviour:
@@ -470,6 +495,30 @@ MonoBehaviour:
   MinDistance: 1
   MaxDistance: 20
   Length: 620
+--- !u!114 &2150868087190495142
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fecb8ef7f94ca804a8ab72049b86782e, type: 3}
+  m_Name: parameter:/PeopleTalkingInside/occlusion
+  m_EditorClassIdentifier: 
+  Name: occlusion
+  StudioPath: 
+  Min: 0
+  Max: 1
+  Default: 0
+  ID:
+    data1: 493995932
+    data2: 1766166238
+  Type: 0
+  IsGlobal: 0
+  Labels: []
+  Exists: 1
 --- !u!114 &3325957400740085060
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -513,7 +562,7 @@ MonoBehaviour:
   Path: FMOD/Paper_Project_2026_FMOD/Build/Desktop/Master.bank
   Name: Master
   StudioPath: bank:/Master
-  lastModified: 639188499507189294
+  lastModified: 639189325571488730
   FileSizes:
   - Name: Desktop
     Value: 2310
@@ -588,7 +637,8 @@ MonoBehaviour:
   IsStream: 1
   Is3D: 1
   IsOneShot: 0
-  Parameters: []
+  Parameters:
+  - {fileID: -4049998021303599747}
   MinDistance: 1
   MaxDistance: 20
   Length: 14502
